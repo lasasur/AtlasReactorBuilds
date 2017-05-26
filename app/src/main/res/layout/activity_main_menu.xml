@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="app.com.example.android.atlasreactorbuilds.MainMenu">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="18dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginLeft="54dp"
+        android:layout_marginRight="54dp"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="31dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnChooseFreelancer"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/atlas_reactor_logo"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+    <Button
+        android:id="@+id/btnChooseFreelancer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_freelancer"
+        app:layout_constraintRight_toRightOf="@+id/imageView"
+        app:layout_constraintLeft_toLeftOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.504"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnMyBuilds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:text="@string/my_builds"
+        app:layout_constraintLeft_toLeftOf="@+id/btnChooseFreelancer"
+        app:layout_constraintRight_toRightOf="@+id/btnChooseFreelancer"
+        app:layout_constraintTop_toBottomOf="@+id/btnChooseFreelancer"
+        tools:layout_constraintTop_creator="1" />
+
+</android.support.constraint.ConstraintLayout>

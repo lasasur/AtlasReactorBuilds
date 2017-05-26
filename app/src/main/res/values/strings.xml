@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AtlasReactorBuilds</string>
+    <string name="choose_freelancer">Choose Freelancer</string>
+    <string name="my_builds">My Builds</string>
+    <string name="prep">Prep</string>
+    <string name="dash">Dash</string>
+    <string name="blast">Blast</string>
+    <string name="bio">Bio</string>
+    <string name="abilities_mods">Abilities/Mods</string>
+    <string name="catalysts">Catalysts</string>
+    <string name="lockwood">Lockwood</string>
+    <string name="save_build">Save Build</string>
+</resources>

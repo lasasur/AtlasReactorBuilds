@@ -1,0 +1,1498 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <freelancerslist>
+        <freelancer name="Blackburn" role="Firepower" health="120" affiliation="Hyperbotics">
+            <ability name="Equalizer" cooldown="0" damage="32" phase="Blast" freeaction="false">
+                <description>Can fire in a line at a single target dealing 32 direct damage or in a cone dealing 18 direct damage to enemies hit.</description>
+                <energy>Gain 12 energy on single target hit or 6 energy per cone target hit.</energy>
+                <mod name="Breach"          value="2">Deal an additional 2 damage while in cover or next to a wall.</mod>
+                <mod name="Prediction Shot" value="2">Deal an additional 6 damage to enemies that have used a dash ability this turn.</mod>
+                <mod name="Elite Comando"   value="3">Firing in single target mode increases damage of next cone usage of Equalizer by 4 and vice versa.</mod>
+                <mod name="Capacitor Clip"  value="1">Gain an additional 3 energy for single target or 1 per cone target hit.</mod>
+            </ability>
+            <ability name="Proteus Grenade" cooldown="3" damage="25" phase="Blast" freeaction="false">
+                <description>Throw a grenade dealing 25 direct damage. Can be targeted through walls.</description>
+                <energy>Gain 8 energy per enemy hit.</energy>
+                <mod name="Frag Out"            value="3">Reduce the cooldown of Proteus Grenade by 1.</mod>
+                <mod name="Field Medic"         value="2">Heal allies hit for 10.</mod>
+                <mod name="Phospho Canister"    value="1">Reveal enemies hit until end of next Decision Mode.</mod>
+                <mod name="Nova nade"           value="2">Deal an additional 8 damage to the center of the location.</mod>
+            </ability>
+            <ability name="Adrenal Stim" cooldown="5" damage="0" phase="Prep" freeaction="true">
+                <description>Grants haste and might until the end of the turn.</description>
+                <energy>Gain 5 energy on use.</energy>
+                <mod name="Ocular Augment"   value="2">Cover damage reduction for Equalizer and Blitz is halved until end of turn.</mod>
+                <mod name="Fire Everything"  value="3">Gain energized until end of turn</mod>
+                <mod name="Launcher Module"  value="1">Increase range of Proteus Grenade by 2 for the turn.</mod>
+                <mod name="Finish the Fight" value="2">Heal yourself for 10.</mod>
+                <mod name="Addiction"        value="1">Reduce the cooldown by 1 if used on the same turn as Blitz.</mod>
+            </ability>
+            <ability name="Blitz" cooldown="5" damage="32" phase="Dash" freeaction="false">
+                <description>Dash next to cover then aim in a line at a single target dealing 32 direct damage or in a cone dealing 18 direct damage to all enemies hit. Fires during Blast Phase.</description>
+                <energy>Gain 12 energy on single target hit or 6 energy per cone target hit.</energy>
+                <mod name="Entrench"            value="2">Gain unstoppable and 15 shields for the turn.</mod>
+                <mod name="Crack Shot"          value="3">Slow targets hit until end of the turn.</mod>
+                <mod name="Engagement Range"    value="1">Increase the dash range by 1.</mod>
+                <mod name="Peerless Leader"     value="2">Allies near the ending location gain 15 shields for the turn.</mod>
+            </ability>
+            <ability name="Scorched Earth" cooldown="0" damage="40" phase="Blast" freeaction="false">
+                <description>Call in a airship to attack enemies in a line across the map, dealing 40 direct damage. You choose the direction of the bombardment.</description>
+                <energy>Requires 100 energy</energy>
+                <mod name="Aerial Bombardment"  value="3">Call in a second airship, dealing damage in a line perpendicular to the original bombardment. Damage is reduced to 35.</mod>
+                <mod name="Death from Above"    value="2">The airship attacks the same location again next turn, dealing 20 indirect damage.</mod>
+                <mod name="Penetrating Blast"   value="1">Cover damage reduction is halved.</mod>
+                <mod name="Massive Payload"     value="3">Increase the width of the attack by 1.</mod>
+            </ability>
+            <about>
+                Current Trust: Hyperbotics
+                Skills: Infiltrating the enemy lines. Exploding enemy lines.
+                Know for: Not quite dying heroically in battle.
+                Favorite Party Trick:Materializing grenades and stims out of thin air. (Double on the stims).
+
+                Bio: Blackburn was once the leader of Warbotics\' special squad, Ares 1. The elite squad took on missions no one else  thought possible - and they may have been right. War records show that Blackburn\'s entire unit died in a bloody ambush. Blackburn survived due to Warbotics\' timely rescue, but disappeared shortly thereafter. His emergence now as a mechanized super soldier has many wondering what happened in the interim.
+                Blackburn carries around an arsenal of weapons, including a customized rifle and grenades. It\'s not far from what he carried in the war, except for Adrenal Stims. He sure does seem to like stims.
+            </about>
+        </freelancer>
+		<freelancer name="Celeste" role="Firepower" health="120" affiliation="Helio Corps">
+			<ability name="Strong Arm" cooldown="0" damage="34" phase="Blast" freeaction="false">
+				<description>Launch two grapplers, each dealing 22 direct damage, or 34 direct damage if they hit the same target. Grapplers can target power-ups instead of enemies to grab them.</description>
+				<energy>Gain 6 energy for each hit including power-ups.</energy>
+				<mod name="For the rush"          	value="1">Gain 1 additional energy per hit</mod>
+				<mod name="Five Finger Discount" 	value="2">Pierce the first power-up hit, gaining its effects.</mod>
+				<mod name="Long Arm"   				value="2">Increase aiming variance to 180 degrees.</mod>
+				<mod name="Smash and Grab"  		value="3">If you grab a power-up, increase damage of the other grappler by 6.</mod>
+			</ability>
+			<ability name="Proximo Charge" cooldown="3" damage="25" phase="Prep" freeaction="true">
+				<description>Place a 4 turn duration trap that is invisible to enemies. If an enemy is on the trap during blast phase the trap explodes, dealing 25 indirect damage. The trap takes 1 turn to arm and cannot detonate the turn it is placed.</description>
+				<energy>Gain 12 energy in an enemy is hit.</energy>
+				<mod name="Amplification Chip"  value="1">Damage increases by 1 every turn the trap is active.</mod>
+				<mod name="Contigency Plan"     value="2">Proximo Charge now awards 6 energy when cast, but energy gain on hit is reduced by 6.</mod>
+				<mod name="Ensnare"    			value="3">Root all enemies hit but reduces damage by 10.</mod>
+				<mod name="Intrusion Protocol"	value="3">Can be targeted through walls and increases the range by 1.</mod>
+			</ability>
+			<ability name="Smoke Bombs" cooldown="3" damage="25" phase="Blast" freeaction="false">
+				<description>Throw 2 smoke bombs that last until end of next turn. Smoke bombs block enemy line of sight and deal 25 direct damage on initial hit.</description>
+				<energy>Gain 8 energy per target.</energy>
+				<mod name="Mending Mists"   		value="1">Celeste heals for 10 if she is in the smoke cloud.</mod>
+				<mod name="High Impact Canisters"  	value="2">Deal an additional 3 damage.</mod>
+				<mod name="Smoke Machine"  			value="2">Lasts an additional turn.</mod>
+				<mod name="Fog Cover" 				value="3">Throw an additional smoke bomb. Reduce damage done by 5.</mod>
+			</ability>
+			<ability name="On the Run" cooldown="5" damage="20" phase="Dash" freeaction="false">
+				<description>Dash to two locations in quick succession. Enemies hit take 20 direct damage.</description>
+				<energy>Gain 8 energy per enemy hit.</energy>
+				<mod name="Kickbacks"           value="1">Deal an additional 8 damage if a target is hit by both parts of the dash.</mod>
+				<mod name="Cover of Darkness"	value="2">Dashing through smoke bomb grants Invisible-Icon invisibility until the beginning of next Resolution Mode.</mod>
+				<mod name="Extra Kick"    		value="2">Gain 5 extra energy on use.</mod>
+				<mod name="Pickpocket"     		value="3">Spawn minor might power-ups on enemies hit.</mod>
+			</ability>
+			<ability name="Safecracker" cooldown="0" damage="50" phase="Blast" freeaction="false">
+				<description>Fires two empowered grapplers, dealing 40 direct damage, or 50 direct damage if they hit the same target. If an enemy hit has might, energize, or haste, you gain that effect next turn.</description>
+				<energy>Requires 100 energy</energy>
+				<mod name="Break the Bank"  	value="1">Enemies hit drop minor Energized-Icon energize power-ups.</mod>
+				<mod name="Heist"    			value="2">Gain all power-ups that this ability travels over.</mod>
+				<mod name="Second Story Job"   	value="2">Increase the range of Safecracker by 1.</mod>
+				<mod name="Assault and Battery"	value="3">Cover damage reduction is halved.</mod>
+			</ability>
+			<about>
+				Current Trust: Helio Corps
+				Skills: Misdirection. Safecracking
+				Know for: Acquiring rare items by request for a small fee.
+				Preferred Hair Product: Getting \'Air, same as Lockwood.
+
+				Bio: New records indicate that Celeste's unusual freelancing contract was sponsored with a generous donation from HelioCorp. Early investigations indicate that the two may have met earlier this year, when several of Cloudspire's automatic security wards reported that they'd been attacked at range or had their vision compromised by persistent smoke, which falls in line with her current Freelancing profile.
+
+	Celeste claims to have infiltrated Omni Trust, Evolution Solutions, and Warbotics. She's made numerous confidential Omni records public, and many suspect she has intel on EvoS and Warbotics as well.
+			</about>
+		</freelancer>
+		<freelancer name="Elle" role="Firepower" health="150" affiliation="Omni">
+			<ability name="Plasma Volley" cooldown="0" damage="25" phase="Blast" freeaction="false">
+				<description>Blast your enemies, dealing 25 direct damage to each enemy hit. Mods to this ability apply to shots from Combat Reflexes as well.</description>
+				<energy>Gain 8 energy per enemy hit.</energy>
+				<mod name="Prey on the Meek"	value="1">If only one target is hit they are Revealed-Icon revealed until end of the next decision phase.</mod>
+				<mod name="Focused Fury" 		value="2">If only one target is hit increase the damage by 5.</mod>
+				<mod name="Wide Barrel"			value="2">Increases the size of the arc by 10 degrees at maximum range.</mod>
+				<mod name="Killing Field"		value="3">Increases damage by up to 4 as the range becomes shorter.</mod>
+			</ability>
+			<ability name="Combat Reflexes" cooldown="4" damage="25" phase="Dash" freeaction="false">
+				<description>Dash a short distance then fire your plasma gun, dealing 25 direct damage. Has 2 charges.</description>
+				<energy>Gain 8 energy per enemy hit.</energy>
+				<mod name="Close Call"  	value="1">Gain 5 shields until the end of this turn.</mod>
+				<mod name="Dance of Death"  value="2">Gain a third charge of Combat Reflexes.</mod>
+				<mod name="Follow Through"	value="2">Gain haste until end of next turn.</mod>
+				<mod name="Action Roll"		value="3">Can now dash up to 2 spaces but no longer has charges.</mod>
+			</ability>
+			<ability name="Overcharge" cooldown="0" damage="0" phase="Prep" freeaction="false">
+				<description>Your next attack will deal 10 additional direct damage. Excludes Lurker Drone. Allows full movement.</description>
+				<energy>Gain 5 energy on use.</energy>
+				<mod name="Double Charge"		value="1">Can be used again to increase the damage bonus by an additional 4.</mod>
+				<mod name="Block 'N Load"		value="2">Gain 15 shields until end of turn.</mod>
+				<mod name="Leg Shot"			value="2">While Overcharge is active Combat Reflexes slows all enemies hit.</mod>
+				<mod name="On the Chase"		value="2">Gain haste for the turn.</mod>
+				<mod name="Brutal Precision"	value="3">While Overcharge is active Plasma Volley causes all enemies hit to be weakened next turn.</mod>
+			</ability>
+			<ability name="Lurker Drone" cooldown="5" damage="20" phase="Prep" freeaction="true">
+				<description>Place a Lurker Drone. Can be freely triggered on a subsequent turn, exploding for 20 indirect damage and slowing targets hit until end of that turn. Not affected by Overcharge. Fires automatically after 3 turns.</description>
+				<energy>Gain 8 energy per enemy hit.</energy>
+				<mod name="Bodyguard"           value="1">Lurker Drone changes its facing towards Elle each turn.</mod>
+				<mod name="Rapid Deployment"	value="1">Reduce the cooldown by 1 turn.</mod>
+				<mod name="Bunk Buster"    		value="2">Cover damage reduction is halved.</mod>
+				<mod name="Point Blank"     	value="2">Targets within 2 spaces take an additional 8 damage..</mod>
+				<mod name="Larger Lurker"     	value="3">Increase the width by 30%.</mod>
+			</ability>
+			<ability name="Oblivion Shell" cooldown="0" damage="40" phase="Blast" freeaction="false">
+				<description>Deals 40 direct damage and knocks back enemies in a cone. The knockback also affects you.</description>
+				<energy>Requires 100 energy</energy>
+				<mod name="Crowd Control"  	value="1">Knockback distance is increased by 2.</mod>
+				<mod name="Warpath"    		value="1">Gain unstoppable for the turn.</mod>
+				<mod name="Art of Murder"   value="2">Cover damage reduction is halved.</mod>
+				<mod name="Killing Spree"	value="3">The next time you use Overcharge after using Oblivion Shell it is a free action.</mod>
+			</ability>
+			<about>
+				Current Trust: Omni Trust
+				Skills: Making a mess. Sending a message.
+				Know for: Active aggression. A low tolerance for... anyone.
+				Guiding Mantra: Nothing opens a mind like a plasma gun.
+
+				Bio: Rumor has it that Elle is actually Agent L, Omni's highest ranking enforcer. The whispered "wolf" of Omni ensures that all trust directives were obeyed, all debts repaid. No problem is too big or small or talkative that can't be solved with a visit from Agent L and her custom-built plasma gun. Anything Omni wants, she delivers. The messier the message, the better.
+
+No one alive can confirm whether or not this is true, of course. But since Elle is the first to tell you that her favorite pastime is murder, maybe it's best to stay away.
+			</about>
+		</freelancer>
+		<freelancer name="Gremolitions Inc." role="Firepower" health="120" affiliation="EvoS">
+			<ability name="Boom Boom" cooldown="0" damage="22" phase="Blast" freeaction="false">
+				<description>Launch two arcing bombs that deal 22 direct damage. If they don't hit a target they leave behind a mine that deals 10 indirect damage and last for 2 turns.</description>
+				<energy>Gain 6 energy per enemy hit.</energy>
+				<mod name="No Downsides"	value="1">No longer has a minimum range.</mod>
+				<mod name="Cannoneer" 		value="2">Increase the arc width for the second bomb.</mod>
+				<mod name="KABOOM Boom"		value="2">The first bomb fired deals an aditional 4 damage if it hits an enemy.</mod>
+				<mod name="Mighty Mines"	value="3">Increases damage of mines by 3.</mod>
+			</ability>
+			<ability name="Splort!" cooldown="4" damage="10" phase="Blast" freeaction="true">
+				<description>Drop mines in all adjacent squares that deal 10 indirect damage and last for 2 turns.</description>
+				<energy>Gain 6 energy per enemy hit.</energy>
+				<mod name="Bomb and Run"  	value="1">Gain Haste until the end of the next turn.</mod>
+				<mod name="Energy Bank"  	value="2">Mines give 2 more energy.</mod>
+				<mod name="Long Fuse"		value="2">Mines persist for 1 additional turn.</mod>
+				<mod name="Phospho Mines"	value="3">Enemies hit by mines are Revealed-Icon Revealed until the end of next Decision Mode.</mod>
+			</ability>
+			<ability name="Big Bang" cooldown="5" damage="25" phase="Blast" freeaction="false">
+				<description>Lobs a concussive bomb that deals 25 direct damage and Rooted-Icon knocks back enemies.</description>
+				<energy>Gain 8 energy per enemy hit.</energy>
+				<mod name="Bigger Bang"			value="1">Increase the size of the explosion. Minimum range is increased by 1.</mod>
+				<mod name="Party Crasher"		value="2">Deals 5 more damage for each target hit beyond the first.</mod>
+				<mod name="Got Yer name On It"	value="3">If only one target is hit they take 5 aditional damage and are knocked back 2 additional spaces.</mod>
+				<mod name="Blast Force"			value="2">Knockback distance is increased by 2.</mod>
+			</ability>
+			<ability name="Bombing Run" cooldown="7" damage="20" phase="Dash" freeaction="false">
+				<description>Jump to two locations in quick succession, dealing 20 direct damage to nearby enemies.</description>
+				<energy>Gain 5 energy per enemy hit.</energy>
+				<mod name="Left You a Present"	value="1">Leave a mine at each location.</mod>
+				<mod name="Extra Fuel"			value="2">Increase the maximum range of each jump by 1.</mod>
+				<mod name="Splortagain"    		value="2">Resets the cooldown of Splort!</mod>
+				<mod name="Explosive Aftermath" value="3">Reduce the remaining cooldown of Big Bang by 3.</mod>
+			</ability>
+			<ability name="Maniacal Mayhem" cooldown="0" damage="30" phase="Blast" freeaction="false">
+				<description>Launches 4 bombs to target locations, dealing 30 direct damage to enemies. Enemies hit by more than one bomb take 8 extra direct damage per bomb. Bombs cannot be placed directly on top of one another.</description>
+				<energy>Requires 100 energy</energy>
+				<mod name="Reloading"  			value="1">Gain 5 energy for any bomb that deals no damage.</mod>
+				<mod name="Artillery Barrage"	value="2">Increase range by 3 and widen the arc.</mod>
+				<mod name="How Many? Six?"   	value="2">Launch 2 more bombs. Enemies hit by additional bimbs only take 5 extra damage.</mod>
+				<mod name="Minefield"			value="3">Leave mines at all bomb locations that don't directly hit an enemy.</mod>
+			</ability>
+			<about>
+				Current Trust: EvoS
+				Skills: Bomb-building, bomb-launching, bomb-bombing.
+				Know for: Demolishing a whole wing at EvoS in their release from the lab.
+				Age: Months past expiration, and counting!
+
+				Bio: Idd and Odd are vat-grown gremunks who somehow outlived their 30-day expiration date. Despite extensive testing, EvoS found that traditional methods of eliminating gremunculi, like sprays and ointments, were ineffective. Researchers joked that if a disaster destroyed Atlas, Idd and Odd would be the only two left to tell the tale. Eventually, EvoS cut their losses and put the pair's frustratingly persistent health to work instead.
+
+Released from the lab (and their imminent recycle-by date), the gremunks founded Gremolitions, Inc. and proceeded to do what they do best: Blow. Up. Everything.
+			</about>
+		</freelancer>	
+		<freelancer name="Grey" role="Firepower" health="120" affiliation="Wildcard">
+			<ability name="Tracer Bolt" cooldown="0" damage="34" phase="Blast" freeaction="false">
+				<description>Deals 34 direct damage and tracks the target for 2 turns. Tracked targets are revealed.</description>
+				<energy>Gain 12 energy if you hit an enemy.</energy>
+				<mod name="High Powered Bolts"	value="1">Pierce enemies but only deal damage to the initial target. Subsequent enemies are tracked.</mod>
+				<mod name="Barbed Tip" 			value="2">Increases energy gained by 3.</mod>
+				<mod name="Hunt Them Down"		value="2">Deal 3 additional damage if the target is tracked.</mod>
+				<mod name="Catch the Scent"		value="3">Hitting a target with Tracer Bolt reduces the cooldown of Hawk Drone by 1.</mod>
+			</ability>
+			<ability name="Hawk Drone" cooldown="2" damage="12" phase="Blast" freeaction="false">
+				<description>Send out your drone, dealing 12 indirect damage to untracked targets or 16 indirect damage to tracked ones. The drone stays at the location, shooting enemies during the Blast Phase until an ability moves it. These attacks ignore cover.</description>
+				<energy>Gain 4 energy per enemy hit.</energy>
+				<mod name="Eye in the Sky"  		value="1">Increase the radius of Hawk Drone's vision by 1.</mod>
+				<mod name="Composite Materials"  	value="2">Increases the maximum range of the drone targeting by 2.</mod>
+				<mod name="Infrared Enhancement"	value="2">Attacks invisible enemies.</mod>
+				<mod name="Vicious"					value="3">Increases damage to tracked targets by 4.</mod>
+			</ability>
+			<ability name="Tranquilizer Dart" cooldown="4" damage="0" phase="Prep" freeaction="true">
+				<description>Launch a dart that weakens and reveals an enemy until end of turn. Enemies hit by a dart are tracked for 2 turns.</description>
+				<energy>Gain 6 energy per target hit.</energy>
+				<mod name="Energy Feed"			value="1">Gain 3 additional energy on hit.</mod>
+				<mod name="Overdose"			value="2">Enemies are also Slow-Icon slowed.</mod>
+				<mod name="Adrenal Overload"	value="3">Can now hit allies, granting might and unstoppable until end of turn.</mod>
+				<mod name="Double Dart"			value="3">Adds an additional dart. Reduces energy gain by 3 per dart and the range by 1.</mod>
+			</ability>
+			<ability name="Slip Away" cooldown="6" damage="0" phase="Dash" freeaction="false">
+				<description>Escape to target location adjacent to your drone.</description>
+				<energy>Gain 10 energy.</energy>
+				<mod name="Thrilling Escape"	value="1">Gain 5 energy when used.</mod>
+				<mod name="Agile Escape"		value="2">Increase the size of the landing area by 1.</mod>
+				<mod name="Unseen Huntress"		value="2">Become invisible until the beginning of next Resolution Mode.</mod>
+				<mod name="Shelter" 			value="3">Gain 20 shields until end of next turn.</mod>
+			</ability>
+			<ability name="Voltaic Cage" cooldown="0" damage="22" phase="Blast" freeaction="false">
+				<description>Command your drone to target location, where it creates a cage for 2 turns. Enemies that cross the barrier are rooted and take 22 indirect damage.</description>
+				<energy>Requires 100 energy</energy>
+				<mod name="Prison Roster"  		value="1">Enemies inside the cage are revealed until the end of next turn.</mod>
+				<mod name="Caught in the Web"	value="2">Increases the range of Voltaic Cage by 1.</mod>
+				<mod name="Zapper"   			value="2">Increases damage by 3.</mod>
+				<mod name="Relentless"			value="3">On cast, resets the cooldown of Hawk Drone.</mod>
+			</ability>
+			<about>
+				Current Trust: Wildcard
+				Skills: Hunting, tracking, and cape collecting.
+				Know for: Using her family fortune to develop the world's deadliest traps and tranqs.
+				Life Goal: Catching "uncatchable" beasts.
+
+				Bio: As heiress of Hawk Aviation, Grey always commanded the public's attention. Yet, it was when she emerged as the sole survivor of an unidentified monster's attacks, ravaged by wounds that left her reliant on biokinetic prosthesis, that she became the public's champion. She poured her fortune into new weaponry and scoured the Depths, killing monsters "for the safety of Atlas" and more likely, to slake her growing hunger for the hunt.
+
+The reclusive hunter is never seen without her state-of-the-art Hawk Drone, Rio. The device is programmed to destroy anything she finds threatening; to date, that appears to include just about everything in visible range.
+			</about>
+		</freelancer>
+		<freelancer name="Juno" role="Firepower" health="150" affiliation="Omni Trust">
+			<ability name="Laser Barrage" cooldown="0" damage="30" phase="Blast" freeaction="false">
+				<description>Fire a barrage of lasers from each cannon. Targets take 22 direct damage, or 30 if hit by both laser barrages.</description>
+				<energy>Gain 6 energy per enemy hit</energy>
+				<mod name="Minigun Mayhem"		value="1">Enemies hit by one barrage take an additional 4 damage.</mod>
+				<mod name="Concentrated Fire"	value="2">Enemies hit by overlapping barrages take an additional 4 damage.</mod>
+				<mod name="Fire At Will"		value="2">Increase the size of the barrage by 40%.</mod>
+				<mod name="Spinning Up"			value="3">Using Laser Barrage increases the energy gain of Laser Barrage next turn by 4.</mod>
+			</ability>
+			<ability name="Lockdown" cooldown="3" damage="30" phase="Prep" freeaction="false">
+				<description>Tether a target to their current position for the turn, if they move further than 2 spaces away they take 30 indirect damage.</description>
+				<energy>Gain 12 energy if damage is dealt.</energy>
+				<mod name="Maximum Security"	value="1">Cooldown is reduced by 1 turn if Lockdown doesn't trigger.</mod>
+				<mod name="Floodlights"  		value="2">Reveal the target until the end of next Decision Mode.</mod>
+				<mod name="Watch Your Step"		value="2">Increase damage by 1 per square traveled.</mod>
+				<mod name="Stoackades"			value="3">If Lockdown is triggered, the target is scrambled next turn.</mod>
+			</ability>
+			<ability name="Off Limits" cooldown="4" damage="25" phase="Blast" freeaction="false">
+				<description>Create a shockwave dealing 25 direct damage. Rooted-Icon Knockback enemies hit by up to 2 squares.</description>
+				<energy>Gain 8 energy per enemy hit.</energy>
+				<mod name="Shockwave"		value="1">Increases the damage of Off Limits by 3.</mod>
+				<mod name="Knockout"		value="2">Increase the distance of the knockback by 2.</mod>
+				<mod name="Seeing Stars"	value="2">Adjacent enemies are additionally Slow next turn.</mod>
+				<mod name="Showstopper"		value="3">Increase the size of the arc by 33%.</mod>
+			</ability>
+			<ability name="Riot Shield" cooldown="3" damage="0" phase="Prep" freeaction="true">
+				<description>Create an electrical barrier, generating 40 shields.</description>
+				<energy>Gain 5 energy on use.</energy>
+				<mod name="Reboot"			value="1">Reduce the cooldown by 1 if the shield takes no damage.</mod>
+				<mod name="Hold the Line"	value="2">Gain 10 additional shields if used while Lay Down the Law is active.</mod>
+				<mod name="Overcharge"		value="2">Gain 1 energy per 5 damage that the shield absorbs.</mod>
+				<mod name="Shield Battery"	value="3">Lasts until end of next turn.</mod>
+			</ability>
+			<ability name="Lay Down the Law" cooldown="2" damage="38" phase="Blast" freeaction="false">
+				<description>Anchor to the ground and unleash a superheated beam in a direction. Deals 38 direct damage and any enemies that move through the beam take 38 indirect damage. Can be used again on subsequent turns to sweep the beam. You cannot move and are Unstoppable while using this ability.</description>
+				<energy>Activation Cost: 50 energy - Sweep Cost: 20 energy</energy>
+				<mod name="Dancing Shoes"  				value="1">Gain Haste when de-anchoring.</mod>
+				<mod name="Indiscriminate Destruction"	value="1">Increase the arc of the sweep by 33%.</mod>
+				<mod name="Efficient Extermination"   	value="2">Reduce initial energy cost by 10.</mod>
+				<mod name="High Intensity"				value="2">Deal up to 7 extra damage to nearby targets, reduced by 1 for each square further away they are.</mod>
+				<mod name="Heating Up"					value="3">Increase the damage by 5 each turn you are anchored, capping at 15 additional damage.</mod>
+			</ability>
+			<about>
+				Current Trust: Omni Trust
+				Skills: Captivating any audience.
+				Know for: Being Omni's Head of Security.
+				Biggest Dream: She's already living it!
+
+				Bio: Juno grew up in the shadow of Atlas, in one of the many small border communities between Atlas and The Waste during the Titan War. Like so many others, she hoped to be sponsored by one of the Trusts and gain entry into Atlas. Omni officials were initially alerted to her as a security threat, given that she'd taken out twenty armed raiders with stones (at first), and later with the weapons she'd acquired along the way. After monitoring her for a short time, Omni soon saw her potential and sponsored her as a security trainee. The doors of Atlas were finally open.
+
+Since then, the charismatic, twin cannon-wielding warrior has risen through the Omni ranks with impressive efficiency. In the wake of the Omni break-ins, Juno was seen as the only candidate above suspicion and has been put in charge of fixing the situation. She is the youngest ever Head of Security at Omni Trust, and a formidable opponent for any Freelancer.
+			</about>
+		</freelancer>
+		<freelancer name="Kaigin" role="Firepower" health="125" affiliation="Wildcard">
+			<ability name="Twisting Blades" cooldown="0" damage="32" phase="Blast" freeaction="false">
+				<description>Deal 32 direct damage to enemies in the front arc and 16 direct damage to enemies in the side arcs.</description>
+				<energy>Gain 10 energy for the first enemy hit and 4 for each subsequent enemy.</energy>
+				<mod name="Essence Drain"		value="1">Gain 3 additional energy when hitting a void marked target.</mod>
+				<mod name="Fury of the Void"	value="2">Increase the size of the frontal cone by 100%.</mod>
+				<mod name="Balanced Aggression"	value="2">Increase the damage done to side targets by 5.</mod>
+				<mod name="Focused Assault"		value="3">Deal 4 additional damage to enemies in the center but 5 less to enemies on the side.</mod>
+				<mod name="Feed on Fear"		value="3">Gain 5 health when hitting a void marked target.</mod>
+			</ability>
+			<ability name="Razor Tempest" cooldown="1" damage="20" phase="Blast" freeaction="false">
+				<description>Throw 3 shurikens, each dealing 20 direct damage. Deals 5 additional damage for each shuriken that hits the same target.</description>
+				<energy>Gain 8 energy for the first enemy hit and 2 for each subsequent enemy.</energy>
+				<mod name="Unyielding"			value="1">Gain 12 energy on hit but no longer gain additional energy for hitting more targets.</mod>
+				<mod name="Flurry of Knives"	value="2">Reduce the cooldown by 2 if no targets are hit.</mod>
+				<mod name="Stalker's Mark"		value="2">Hitting a target with all of the shurikens Revealed-Icon reveals them until end of next decision phase.</mod>
+				<mod name="Honed Edge"			value="3">Ignores cover when hitting void marked targets.</mod>
+				<mod name="Void Empowered"		value="3">Deals 5 additional damage but can no longer increase in damage when hitting with multiple shurikens.</mod>
+			</ability>
+			<ability name="Void Strike" cooldown="5" damage="32" phase="Dash" freeaction="false">
+				<description>Teleport to an enemy and slash them, dealing 32 direct damage. You can move after dashing.</description>
+				<energy>Gain 12 energy on hit.</energy>
+				<mod name="Through the Void"	value="1">Increase the range by 1 when dashing to void marked targets.</mod>
+				<mod name="Crippling Stab"		value="2">Hitting a void marked target with this ability applies Weak-Icon Weak to the target at the start of next turn.</mod>
+				<mod name="Elusive"				value="2">Gain Haste for the turn.</mod>
+				<mod name="Deathmark"			value="3">Deal 4 additional damage when hitting a void marked target.</mod>
+			</ability>
+			<ability name="Shadowstalker" cooldown="6" damage="0" phase="Blast" freeaction="true">
+				<description>Drop a smoke bomb at your location that obscures enemy vision until the end of next turn. Gain invisibility until the end of next decision phase.</description>
+				<energy>Gain 8 energy on cast.</energy>
+				<mod name="Cover of Night"		value="1">If no other abilities are used reduce the cooldown by 1.</mod>
+				<mod name="Soothing Shadows"	value="1">If you are inside the smoke bomb at the beginning of next turn gain 10 health.</mod>
+				<mod name="Suffocation"			value="2">Slow adjacent enemies until end of the turn.</mod>
+				<mod name="Thick Smoke"			value="2">Increase the duration of the smoke by 1 turn.</mod>
+				<mod name="Preparation"			value="3">Gain Energized next turn.</mod>
+			</ability>
+			<ability name="Spectre of Death" cooldown="0" damage="50" phase="Dash" freeaction="false">
+				<description>Teleport to a location, dealing 50 direct damage. The damage dealt is reduced by 10 for each enemy after the first.
+
+Passive: Whenever damage is dealt to an enemy they are void marked. If an enemy is already void marked deal an additional 10 damage to them.
+</description>
+				<energy>Costs 100 energy.</energy>
+				<mod name="Fueled by Vengeance"	value="1">Gain 10 energy when hitting a void marked target.</mod>
+				<mod name="Phantasmal Fury"		value="2">The damage penalty for multiple targets is reduced from 10 to 5.</mod>
+				<mod name="Master Assassin"   	value="2">If only one target is hit they are Slow-Icon slowed until end of turn and revealed until end of next decision phase.</mod>
+				<mod name="Night Hunter"		value="3">Gain 15 health when hitting a void marked target. No longer deal additional damage when hitting a void marked target.</mod>
+				<mod name="Eclipse"				value="3">Resets the cooldown on Shadowstalker.</mod>
+			</ability>
+			<about>
+				Current Trust: Wildcard
+				Skills: Assassination, stealth, and space-time warping.
+				Know for: Eliminating an A.I. created by GAIA and living to tell the tale.
+				Weapons: None you'll see until it's too late.
+
+				Bio: Like Asana, Kaigin is believed to have been a subject of "Project Nidus," an Omni initiative focused on producing warriors capable of wielding weapons created by GAIA, the A.I. who built and maintained the Reactors. The nanite infusion he received from Nidus gave him the unique ability to warp through the Reactor's energy fields; however, it is also said to have rendered him sightless. Still, his deadly accuracy with both daggers and shuriken indicate that his lack of eyesight has not hindered him.
+
+It should be noted that his unexpected emergence as a "self-funded" Freelancer was met with heavily upgraded security in both the Reactor and at Omni-Plex. In particular, new devices were placed around the Reactor specifically to deter teleportation. While correlation does not imply causation, this "coincidence" has many citizens wondering why.
+			</about>
+		</freelancer>
+		<freelancer name="Lockwood" role="Firepower" health="120" affiliation="Helio Corps">
+            <ability name="Trick Shot" cooldown="0" damage="32" phase="Blast" freeaction="false">
+                <description>Fire a trick shot dealing 32 direct damage to an enemy. This shot can bounce off walls.</description>
+                <energy>Gain 12 energy if you hit an enemy.</energy>
+                <mod name="On the Move"     value="2">Backup Plan cooldown reduced by 1 when Trick Shot hits a target.</mod>
+                <mod name="Pinball"         value="1">Adds a additional bounce.</mod>
+                <mod name="Extra Tricky"    value="2">Gains 2 additional damage per bounce.</mod>
+                <mod name="Impaling Shot"   value="3">Pierces the first target. Deals 14 direct damage to the second target hit.</mod>
+            </ability>
+            <ability name="Light'em Up!" cooldown="3" damage="30" phase="Blast" freeaction="false">
+                <description>Fire a barrage of bullets, dealing 30 direct damage to enemies.</description>
+                <energy>Gain 8 energy if you hit an enemy.</energy>
+                <mod name="Quickfingers"        value="3">Gain 3 additional energy per enemy hit. Reduce the cooldown to 2 turns.</mod>
+                <mod name="Phosphorus Rounds"   value="1">Reveals enemies hit until end of next Decision Mode.</mod>
+                <mod name="Spray and Pray"      value="2">Increase firing arc to 90 degrees.</mod>
+                <mod name="Focused Fire"        value="2">Deal 35 damage but reduces the width of the arc to 45 degrees.</mod>
+            </ability>
+            <ability name="Trapwire" cooldown="4" damage="35" phase="Prep" freeaction="false">
+                <description>Toss a laser trap on the ground. Enemies that move through it take 35 indirect damage. The trap lasts up to 2 turns.</description>
+                <energy>Gain 12 energy if you hit an enemy.</energy>
+                <mod name="Throwing Arm"        value="2">Can be targeted through walls.</mod>
+                <mod name="Insta-trap"          value="3">Now a free action. Reduces damage by 15 and increases cooldown by 1.</mod>
+                <mod name="Trapwall"            value="3">Increase the size of trapwire, but reduces damage by 5.</mod>
+                <mod name="Consolation Prize"   value="1">If nobody trips the Trapwire, the cooldown is reset.</mod>
+            </ability>
+            <ability name="Backup Plan" cooldown="7" damage="0" phase="Dash" freeaction="false">
+                <description>Dash to target position. Taking damage reduces this ability\'s cooldown by 1 at the end of the turn.</description>
+                <energy>Gain 10 energy.</energy>
+                <mod name="Souvenir"        value="2">Leaves a Trapwire at your starting location that deals 20 indirect damage.</mod>
+                <mod name="Kinetic Dash"    value="1">Gain 1 energy for each square moved.</mod>
+                <mod name="Slippery"        value="2">Increases range by 1.</mod>
+                <mod name="Tough Customer"  value="3">Gain 20 shields until end of next turn.</mod>
+            </ability>
+            <ability name="Run and Gun" cooldown="0" damage="45" phase="Dash" freeaction="false">
+                <description>Dash to target position, dealing 45 direct damage to enemies along the way.</description>
+                <energy>Requires 100 energy</energy>
+                <mod name="Gunslinger"      value="2">Gain 10 energy per enemy hit</mod>
+                <mod name="Burst of Speed"  value="3">Increase range by 3.</mod>
+                <mod name="Armor Piercing"  value="2">Cover damage reduction is halved.</mod>
+                <mod name="Errant Assault"  value="1">Gain 50 energy if you do not hit an enemy.</mod>
+            </ability>
+            <about>
+                Current Trust: Helio Corps
+                Skills: Quick Draw, escape
+                Know for: Heists and hair products. Always shoots first.
+                Implants: Agility, charm(recalled)
+
+                Bio: War deserter. Rebel arms dealer. Scoundrel. Lockwood\'s truncated war record shows that he fought in Garrison\'s regiment shortly before vanishing into black market gun running. Even if Lockwood\'s status as Atlas\' first Freelancer has afforded him newfound legitimacy, his slippery tactics are well documented. Historical, even. DNA analysis indicates that he may have resurrected in the Reactor's earliest cycles.
+    Stay on your guard and remember: Lockwood's always looking to shoot you in the back, even when he's smirking in your face.
+            </about>
+        </freelancer>
+		<freelancer name="Nix" role="Firepower" health="120" affiliation="EvoS">
+			<ability name="Headshot" cooldown="0" damage="34" phase="Blast" freeaction="false">
+				<description>Snipe an enemy, dealing 34 direct damage.</description>
+				<energy>Gain 12 energy if you hit an enemy.</energy>
+				<mod name="Zero In"				value="1">Increase range by 1.</mod>
+				<mod name="High Energy Rounds"	value="2">Increases energy gained by 3</mod>
+				<mod name="Spotter"				value="2">If the target is farther than 6 spaces away, they take an additional 4 damage.</mod>
+				<mod name="Hard-core"			value="3">Pierces the first target hit. Deals 22 direct damage to the second target hit.</mod>
+			</ability>
+			<ability name="Stalker Suit" cooldown="5" damage="0" phase="Prep" freeaction="true">
+				<description>Grants Invisibility until the end of next turn. Using an ability or getting hit reveals you temporarily.</description>
+				<energy>Gain 8 energy.</energy>
+				<mod name="Field Triage"		value="1">Restore 10 health when used.</mod>
+				<mod name="Electromagnetic Aid"	value="2">Become Energized until the end of the turn.</mod>
+				<mod name="Disengage"			value="3">On use, gain Haste until the end of this turn. Haste applies to movement this turn.</mod>
+				<mod name="Resilient Suit"		value="3">Gain 15 shields until end of next turn.</mod>
+			</ability>
+			<ability name="Overwatch Drone" cooldown="2" damage="30" phase="Blast" freeaction="false">
+				<description>Place a drone that watches a direction. The first enemy to cross the line takes 30 indirect damage. The drone lasts 2 turns.</description>
+				<energy>Gain 10 energy if you hit an enemy.</energy>
+				<mod name="Watchful Eye"		value="1">Increases drone duration by 1.</mod>
+				<mod name="High Velocity Round"	value="2">Increases damage by 4.</mod>
+				<mod name="Drone Network"		value="3">Gain a second charge of Overwatch Drone.</mod>
+				<mod name="Ammo Replication"	value="3">Hits all targets that move through it instead of just the first.</mod>
+			</ability>
+			<ability name="Vortex Round" cooldown="5" damage="30" phase="Blast" freeaction="false">
+				<description>Fire an exploding round that deals 30 direct damage to the target and 20 direct damage to the surrounding enemies. The main target is Slowed for the turn.</description>
+				<energy>Gain 8 energy per enemy hit.</energy>
+				<mod name="Nova"			value="1">Increases splash damage by 5.</mod>
+				<mod name="Taser Round"		value="2">All enemies hit are Slowed for the turn.</mod>
+				<mod name="Riot Round"		value="2">All enemies hit are Weakened next turn.</mod>
+				<mod name="Crippling Shot"	value="3">Target is Slowed for an additional turn.</mod>
+			</ability>
+			<ability name="Fusion Pulse" cooldown="0" damage="50" phase="Blast" freeaction="false">
+				<description>Unleash an experimental round that deals 50 direct damage to all enemies in its path. Shoots through walls and ignores Cover.</description>
+				<energy>Costs 100 energy.</energy>
+				<mod name="Phosphorescent Residue"	value="1">Enemies hit are Revealed until the end of the next turn.</mod>
+				<mod name="Focused Beam"			value="2">Increases range by 2.</mod>
+				<mod name="Extraction Plan"   		value="3">On use, gain Invisible-Icon Invisibility until the end of the next Decision Mode.</mod>
+				<mod name="Reaper Shells"			value="3">Deals an additional 10 damage to enemies below 50% health.</mod>
+			</ability>
+			<about>
+				Current Trust: EvoS
+				Skills: Sniping and stealth.
+				Know for: Not being seen or heard. He may not exist at all.
+				Pet Peeves: Tall people. Tall robots. Tall things.
+
+				Bio: Wherever Evolution Solutions' lead sniper goes, silence follows. Not much is known about the sniper's origins at EvoS (and even less is known now that he's been made head of their security). Legend has it that the only way to find his offices is to follow the chill down your spine. While no regular EvoS employees have ever seen Nix in person, sources from within the Trust are still fairly certain that he does, in fact, exist.
+
+With his specialized stealth suit and sniper rifle, Nix liberates his targets from the burden of life just before vanishing without a trace. Keep an eye on him if you can, or it might be the last mistake you ever make.
+			</about>
+		</freelancer>
+		<freelancer name="Oz" role="Firepower" health="120" affiliation="Hyperbotics">
+			<ability name="Phaser Laser" cooldown="0" damage="25" phase="Blast" freeaction="false">
+				<description>Oz and his afterimages fire lasers that deal 25 direct damage, and an additional 10 direct damage per extra laser hitting the target.</description>
+				<energy>Gain 6 energy for each attack that hits.</energy>
+				<mod name="Potent Phasers"		value="1">Lasers that hit the same target create a minor power-up that grants Might.</mod>
+				<mod name="Laser Focused"		value="2">Increases the additional damage per extra laser hitting the target by 3.</mod>
+				<mod name="Serial Zapper"		value="2">Hitting a target with Phaser Laser reduces the cooldown of Zap Trap by 1.</mod>
+				<mod name="Divide and Conquer"	value="3">Targets hit by only one laser take an additional 3 damage.</mod>
+			</ability>
+			<ability name="Photon Spray" cooldown="3" damage="20" phase="Blast" freeaction="false">
+				<description>Oz and his afterimages fire photonic energy that deals 20 direct damage, and an additional 10 direct damage per extra spray hitting the target.</description>
+				<energy>Gain 7 energy per enemy hit.</energy>
+				<mod name="Light Painting"	value="1">If multiple sprays hit the same target they are revealed until the end of next Decision Mode.</mod>
+				<mod name="Tagged"			value="2">Increase energy gain by 2 per target hit.</mod>
+				<mod name="The Big Picture"	value="2">Increases the arc of Photon Spray by 15 degrees.</mod>
+				<mod name="Lucent Burst"	value="3">Damage done with subsequent sprays is increased by 5.</mod>
+			</ability>
+			<ability name="Zap Trap" cooldown="4" damage="24" phase="Blast" freeaction="false">
+				<description>Create a damage field around Oz and his afterimages that deals 24 direct damage, and an additional 10 direct damage per field hitting the target that turn. Last until the end of next turn.</description>
+				<energy>Gain 8 energy per enemy hit.</energy>
+				<mod name="Dazzling Luminescence"	value="1">Slow all enemies hit when activated.</mod>
+				<mod name="Overwhelming Light"		value="2">Enemies hit are made weak until end of next turn.</mod>
+				<mod name="Strobe Light"			value="2">The cooldown of Zap Trap is reduced by 1.</mod>
+				<mod name="Dance Floor"				value="3">Increases damage by 4. Subsequent damage increase remains the same.</mod>
+			</ability>
+			<ability name="Made You Look" cooldown="5" damage="0" phase="Dash" freeaction="false">
+				<description>Switch locations with target afterimages. Abilities can be used as normal. You can move after switching locations.</description>
+				<energy>Gain 5 energy.</energy>
+				<mod name="Tr-Tr-Tr-Tricky"	value="1">Gain Haste next turn.</mod>
+				<mod name="Mighty Me"		value="2">Gain Might for the turn.</mod>
+				<mod name="Understudy"		value="2">Gain 10 shields until the end of the next turn.</mod>
+				<mod name="Afterglow"		value="3">Create a minor power-up at the location of dissipating afterimages that grants Energized.</mod>
+			</ability>
+			<ability name="Catch Me If You Can" cooldown="0" damage="25" phase="Dash" freeaction="false">
+				<description>Dash to target location then select two additional locations for afterimages to travel to. Oz and his afterimages each deal 25 direct damage and an additional 10 direct damage per extra hit. Gain Unstoppable-Icon Unstoppable for the turn.</description>
+				<energy>Costs 100 energy.</energy>
+				<mod name="Follow the Leader"	value="1">Traveling over an ally infuses them with 15 energy.</mod>
+				<mod name="Faster than Light"	value="2">Increase the ability range by 2.</mod>
+				<mod name="Razzle Dazzle"		value="2">On activation, reset the cooldown on Photon Spray.</mod>
+				<mod name="Welcome to the Show"	value="3">Gain Energized for the next two turns.</mod>
+			</ability>
+			<about>
+				Current Trust: Wildcard
+				Skills: Light painting and laser shows.
+				Know for: Surviving the “Jimmy 6 and his Magic Tricks” toy recall.
+				Hobbies: Guerilla artwork, AI activism.
+
+				Bio: Jimmy 6 and His Magic Tricks was slated to be Toybotics' next best selling toy. An AI malfunction made it one of their biggest failures instead. Customers were displeased with the toy's surprise magic trick of free will and weaponized lasers. Only one toy escaped the subsequent recall: Oz. Sources within Toybotics say that his recall chip was damaged during reclamation which allowed him to escape the recycler.
+
+Oz's demonstrations of free will sparked outrage among AI-rights groups (1) who demanded that Oz be spared from the recall. Toybotics’ parent company, Warbotics, then sponsored Oz as an official Freelancer and enhanced his magic tricks with matter-dissolving lasers. No matter his origins, Oz isn't toying around anymore.
+			</about>
+		</freelancer>
+		<freelancer name="Pup" role="Firepower" health="160" affiliation="Helio Corps">
+			<ability name="Megabite" cooldown="0" damage="36" phase="Blast" freeaction="false">
+				<description>Chomp on enemies, dealing 36 direct damage. Recover 10 health per enemy hit.</description>
+				<energy>Gain 10 energy per enemy damaged.</energy>
+				<mod name="Tasty Target"	value="1">Enemies hit are Revealed until end of next Decision Mode.</mod>
+				<mod name="Bite And Run"	value="2">Reduces the cooldown on Prowl Protocol by 1 turn when Megabite deals damage.</mod>
+				<mod name="Bloodhound"		value="2">Increases health recovery by 2 per enemy hit.</mod>
+				<mod name="Rabid"			value="3">Using Megabite increases the damage of Megabite, next turn, by 6</mod>
+			</ability>
+			<ability name="Pounce" cooldown="2" damage="35" phase="Dash" freeaction="false">
+				<description>Charge the enemy, automatically chasing the target and dealing 35 direct damage. Ignores cover. Can jump to allies.</description>
+				<energy>Gain 12 if you hit your target.</energy>
+				<mod name="Play Time"		value="1">Increases the range by 3.</mod>
+				<mod name="Feast"			value="2">If enemy hit by Pounce dies, gain 30 health at the beginning of next turn.</mod>
+				<mod name="Impact Velocity"	value="2">Pounce's damage is increased by 4.</mod>
+				<mod name="Rush of Blood"	value="3">Gain 10 health on hitting an enemy.</mod>
+			</ability>
+			<ability name="Walkies" cooldown="4" damage="30" phase="Blast" freeaction="false">
+				<description>Leashes an enemy, dealing 30 direct damage, Revealed-Icon revealing them until the end of next Decision Mode, and forcing them to chase you during Move Phase.</description>
+				<energy>Gain 12 if you hit an enemy.</energy>
+				<mod name="High Strung"			value="1">Gain 3 additional energy on hit.</mod>
+				<mod name="Again?!?"			value="2">Cooldown is reduced by 1. Damage is reduced by 5.</mod>
+				<mod name="Retractable Leash"	value="2">Increases range by 1.</mod>
+				<mod name="Wear Out"			value="3">Target is slowed next turn.</mod>
+			</ability>
+			<ability name="Prowl Protocol" cooldown="5" damage="0" phase="Prep" freeaction="false">
+				<description>Gain invisibility and might for 3 turns. Using an ability will remove these effects at the end of the turn.</description>
+				<energy>Gain 10 energy.</energy>
+				<mod name="Amped Up"			value="1">Gain energized for 3 turns. Using an ability will remove this effect at the end of the turn.</mod>
+				<mod name="Single Minded"		value="1">Gain unstooppable for the turn.</mod>
+				<mod name="Caught The Scent"	value="2">Your first attack out of stealth also reveals the target until the end of next turn.</mod>
+				<mod name="Dog Shelter"			value="3">Gain 20 shields until the end of next turn.</mod>
+				<mod name="Hunting Dog"			value="3">Go invisible then dash a short distance.</mod>
+			</ability>
+			<ability name="Subwoof" cooldown="0" damage="45" phase="Blast" freeaction="false">
+				<description>Unleash a disorientating howl dealing 45 direct damage to enemies and scrambling them next turn.</description>
+				<energy>Costs 100 energy.</energy>
+				<mod name="Supersonic"				value="1">Enemies are also Revealed-Icon revealed until the end of next turn.</mod>
+				<mod name="Resonance Shield"		value="2">Gain 20 Shields until end of next turn.</mod>
+				<mod name="To Eleven"				value="2">Adjacent enemies take 11 additional damage.</mod>
+				<mod name="Acoustic Distraction"	value="3">Gain invisiblity until the end of next turn.</mod>
+			</ability>
+			<about>
+				Current Trust: Helio Corps
+				Skills: Biting, fetching, high stakes espionage.
+				Know for: Burying cash (and Zuki's tools).
+				Pet Peeves:  Rust. Oil baths. Mass market PuP-toys.
+
+				Bio: PuP (Project Universal Protector) is the original prototype for a stealth spy-bot, programmed to infiltrate enemy zones, destroy sentries, and capture targets. While the rest of PuP's line was destroyed after the war due to fears of an AI resurgence, the rebel engineer who created him prevented his recycling. When that man later vanished, Warbotics allowed PuP to be placed in the care of the inventor's daughter, Zuki. Much to PuP's dismay, Toybotics' PuP-inspired toys are the most popular in Atlas.
+
+It may be why he's let Zuki mod his gear so extensively, from upgrading his kit to programming him to drop sick beats on command.
+			</about>
+		</freelancer>
+		<freelancer name="Tol-Ren" role="Firepower" health="145" affiliation="Omni Trust">
+			<ability name="Twin Slashes" cooldown="0" damage="34" phase="Blast" freeaction="false">
+				<description>Slash twice with your sword, dealing 24 direct damage. Enemies hit by both slashes take 34 direct damage.</description>
+				<energy>Gain 10 energy for the first enemy hit and 6 for each subsequent enemy.</energy>
+				<mod name="Furious Strike"		value="1">Hitting enemies the same turn you use Ren's Fury slows the target.</mod>
+				<mod name="Cross Slash"			value="2">Deal an additional 4 overlap damage.</mod>
+				<mod name="Wandering Warrior"	value="2">Gain haste until end of turn.</mod>
+				<mod name="Honed Blade"			value="3">Each slash hits for 30. Overlap damage remains at 34.</mod>
+			</ability>
+			<ability name="Ren's Fury" cooldown="3" damage="0" phase="Prep" freeaction="true">
+				<description>Gain 20 shields. If you take direct damage this turn, your blade will become empowered next turn, adding 10 damage to your next attack.</description>
+				<energy>Gain 6 energy on cast, and 3 energy each time you take damage this turn.</energy>
+				<mod name="Way of the Monkey"	value="1">Gain an additional 20 shields if this is your only ability action this turn.</mod>
+				<mod name="Way of the Crane"	value="2">Gain 5 additional shields.</mod>
+				<mod name="Way of the Snake"	value="2">If you aren't hit this turn, reduce the cooldown of this ability by 1</mod>
+				<mod name="Way of the Dragon"	value="3">Deal an additional 5 damage this turn.</mod>
+				<mod name="Way of the Ox"		value="3">Gain unstoppable until end of turn.</mod>
+			</ability>
+			<ability name="Spirit Rend" cooldown="4" damage="25" phase="Blast" freeaction="false">
+				<description>Slice the air, creating a piercing wave of energy. Enemies hit take 25 damage and are slowed.</description>
+				<energy>Gain 8 energy per enemy hit.</energy>
+				<mod name="Focused Blade"		value="1">Range increased by 2 but can only hit 1 target.</mod>
+				<mod name="Escalating Force"	value="2">Each subsequent target takes 3 more damage than the last.</mod>
+				<mod name="Spirit Transfer"		value="2">Gain 5 shields next turn for each enemy hit this turn.</mod>
+				<mod name="Spirit Master"		value="3">Reduce the cooldown by 2. No longer slows.</mod>
+			</ability>
+			<ability name="Rushing Steel" cooldown="4" damage="28" phase="Dash" freeaction="false">
+				<description>Dash forward and stab, dealing 28 damage to targets hit. You can move after using this ability.</description>
+				<energy>Gain 12 energy for the first enemy hit and 8 for each subsequent enemy.</energy>
+				<mod name="Deflection"			value="1">Gain 10 shields until end of turn.</mod>
+				<mod name="From Every Angle"	value="2">Increase angle by 20 degrees.</mod>
+				<mod name="Hit and Run"			value="2">Gain haste until end of turn.</mod>
+				<mod name="Cut them Down"		value="3">Deal an additional 8 damage if only one target is hit.</mod>
+			</ability>
+			<ability name="Showdown" cooldown="0" damage="50" phase="Dash" freeaction="false">
+				<description>Dash to target location, marking the first enemy you travel through. During Blast Phase, the target takes 50 damage and knocked down. If your target dashes out of the way of this attack, and you do not hit anyone else, you will recover 50 energy. Ignores cover.</description>
+				<energy>Costs 100 energy.</energy>
+				<mod name="Spirit Wrack"		value="1">The first enemy crossed over is made weak until end of turn.</mod>
+				<mod name="Momentum"			value="2">Can move after dashing, but become Slow-Icon slowed until end of turn.</mod>
+				<mod name="Vengeance Seeker"	value="2">Gain an additional 2 range.</mod>
+				<mod name="Reaver"				value="3">All targets crossed over are knocked down. Only the first target hit takes damage.</mod>
+				<mod name="Soul Splitter"		value="3">Deal additional damage equal to 15% of the damage the target took before knockback occurs.</mod>
+			</ability>
+			<about>
+				Current Trust: Omni Trust
+				Skills: Merciless revenge against those who stabbed him in the back. Or hearth.
+				Know for: Being one of the first androids GAIA ever created.
+				Fun Fact: Tol-Ren was clinically dead for over 1,576,800 minutes! Not a world record, but impressive all the same.
+
+				Bio: Records indicate that Tol-Ren was a descendant of GAIA and tasked with protecting (or possible infiltrating) Reactor cities during a time of great unrest between GAIA and human civilization. Like Su-Ren, he is believed to be have been one of the originators of Project Nidus - an initiative to create super-powered warriors with both organic and artificial DNA - some time after GAIA's desertion.
+
+Documents about the lancer, Asana, also imply that Tol-Ren was betrayed and "killed" by one of his studends, Kaigin. His recent return to Atlas has raised concerns about an impending zombie crisis and imminent death. Especially for Kaigin.
+			</about>
+		</freelancer>
+		<freelancer name="Zuki" role="Firepower" health="120" affiliation="Helio Corps">
+			<ability name="Bombard" cooldown="0" damage="32" phase="Blast" freeaction="false">
+				<description>Fires a missile that explodes when hitting an enemy or a wall, dealing 32 direct damage to the primary target and 22 direct damage to nearby enemies.</description>
+				<energy>Gain 10 energy per enemy hit.</energy>
+				<mod name="Rocket Fuel"				value="1">Gain 2 additional energy per enemy hit.</mod>
+				<mod name="Explosives Everywhere"	value="2">Hitting a target with direct missile damage will reduce the remaining cooldown on The Big One by 1</mod>
+				<mod name="Mr. Punch"				value="2">Increases damage to initial target by 3</mod>
+				<mod name="Extra Shrapnel"			value="3">Increases damage to nearby enemies by 4</mod>
+			</ability>
+			<ability name="Sticky Bomb" cooldown="3" damage="26" phase="Blast" freeaction="false">
+				<description>Attaches sticky bombs to enemies. The bombs explode next turn, doing 26 indirect damage.</description>
+				<energy>Gain 8 energy per enemy hit.</energy>
+				<mod name="Phosphorus Residue"	value="1">Targets are revealed until end of next Decision Mode.</mod>
+				<mod name="Pyrotechnic"			value="2">The Cooldown of Sticky Bomb is reduced by 1 for each enemy hit. Increases the base cooldown by 1.</mod>
+				<mod name="Stickiest Bombs"		value="2">When a sticky bomb explodes, the target is slowed.</mod>
+				<mod name="Shell Shocked"		value="3">When a sticky bomb is applied, the target is Weak-Icon weakened until end of next turn.</mod>
+			</ability>
+			<ability name="The Big One" cooldown="4" damage="50" phase="Prep" freeaction="false">
+				<description>Shoots a missile into the sky. After a 1 turn delay, the missile crashes down, dealing 50 indirect damage to enemies in the center, 35indirect damage to enemies adjacent to the center, and 20 indirect damage to enemies in the outer squares. Ignores cover.</description>
+				<energy>Gain 10 energy per enemy hit.</energy>
+				<mod name="Long Range Ballistics"	value="1">Gain an additional 6 range.</mod>
+				<mod name="Regenerating Ammo"		value="2">Gain 6 energy.</mod>
+				<mod name="The Bigger One"			value="2">Targets in the middle 3x3 squares take an additional 10 damage.</mod>
+				<mod name="Peekaboo"				value="3">Now a  free action. Increases cooldown by 2.</mod>
+				<mod name="Shock and Awe"			value="3">Enemies in the targeting area are slowed on the first turn.</mod>
+			</ability>
+			<ability name="Rocket Jump" cooldown="6" damage="20" phase="Blast" freeaction="false">
+				<description>Jump to target position dealing. Deals 20 direct damage to enemies near your take off.</description>
+				<energy>Gain 10 energy.</energy>
+				<mod name="Extra Big Boom"	value="1">Increases damage by 5.</mod>
+				<mod name="Booster Jet"		value="2">Gain energized until end of next turn.</mod>
+				<mod name="Blast Shield"	value="3">Gain a shield for 20 until the end of next turn.</mod>
+				<mod name="Eat My Dust"		value="3">Enemies at your takeoff location are slowed for the turn.</mod>
+				<mod name="Something Extra"	value="3">Gain might until end of next turn.</mod>
+			</ability>
+			<ability name="Missile Storm" cooldown="0" damage="45" phase="Prep" freeaction="false">
+				<description>Locks on to enemy locations during the Prep Phase and fires a storm of missiles at them during Blast Phase, dealing 45 direct damage. Ignores cover.</description>
+				<energy>Costs 100 energy.</energy>
+				<mod name="Replicating Rockets"	value="1">Each target hit gives 5 energy.</mod>
+				<mod name="Artillery Barrage"	value="2">Increases range by 2.</mod>
+				<mod name="Concentrated Fire"	value="2">Increases damage by 9. Damage is reduced by 3 for each target beyond the first.</mod>
+				<mod name="Enhanced Targeting"	value="3">Target enemies through walls. Reduces damage by 10.</mod>
+			</ability>
+			<about>
+				Current Trust: Helio Corps
+				Skills: Making things, blowing them up.
+				Know for: Explosive entrances, exits.
+				Proudest Moment: Programming PuP to drop beats on command.
+
+				Bio: Zuki is an off-the-books modder and machinist – one of the few people left in the world who knows what welding is, much less how to do it. Records show she was born in Atlas, and was curiously left in the care of Lockwood after the disappearance of her father. She discovered her unique aptitude with all things explosive after combusting Lockwood's hovercraft using nothing but an e-cigar, an old boot, and a coat hanger.
+
+She is often found piloting her flying junkyard around central Atlas alongside fellow Freelancer, PuP.
+			</about>
+		</freelancer>
+		<freelancer name="Asana" role="Frontline" health="165" affiliation="Wildcard">
+			<ability name="Whirling Blade" cooldown="0" damage="22" phase="Blast" freeaction="false">
+				<description>Unleash a spinning strike that deals 22 direct damage.</description>
+				<energy>Gain 8 energy per enemy hit.</energy>
+				<mod name="Dancing Blade"		value="1">Gain 2 additional energy per enemy hit.</mod>
+				<mod name="Overcharged Blade"	value="2">Hitting any target lowers the cooldown of Stand and Fight! by 1.</mod>
+				<mod name="Swordmaster"			value="2">Increases damage by 3 for each enemy hit.</mod>
+				<mod name="Leech Blade"			value="3">Each enemy hit restores 4 health.</mod>
+			</ability>
+			<ability name="Rebounding Charge" cooldown="4" damage="25" phase="Dash" freeaction="false">
+				<description>Dash in a direction, doing 25 damage to the first enemy hit. If you hit an enemy, you will chase them. This dash can bounce off walls. Ignores cover.</description>
+				<energy>Gain 10 energy if you hit an enemy.</energy>
+				<mod name="Charge Capacitor"	value="1">Gain 5 extra energy if you hit an enemy.</mod>
+				<mod name="Fleet Footed"		value="2">Increase the range of each bounce by 1.</mod>
+				<mod name="Nimble Protector"	value="2">Gain 15 shields for the turn. Dashing over allies grants them 15 shields.</mod>
+				<mod name="Vault"				value="3">Bounces off the first target hit. Deal 12 damage to the second target hit.</mod>
+			</ability>
+			<ability name="Stand and Fight!" cooldown="4" damage="24" phase="Blast" freeaction="false">
+				<description>Lash out with a surge of energy that deals 24 direct damage and Roots the enemy.</description>
+				<energy>Gain 10 energy if you hit an enemy.</energy>
+				<mod name="Shining Blade"	value="1">Increases energy gain by 5.</mod>
+				<mod name="Atomic Edge"		value="2">Increases damage by 6.</mod>
+				<mod name="Walk and Fight!"	value="2">Reduce cooldown by 2. Slows target hit instead of Rooting.</mod>
+				<mod name="Skewer"			value="3">Pierce through the first enemy. Deal 12 damage and Root the second target hit.</mod>
+			</ability>
+			<ability name="Retribution" cooldown="3" damage="12" phase="Prep" freeaction="true">
+				<description>Gain 30 shields until end of turn and deal 12 indirect damage back to enemies who damage you with direct damage. Ignores cover.</description>
+				<energy>Gain 6 energy per enemy hit.</energy>
+				<mod name="Watchful Defense"	value="1">Enemies damaged by Retribution are Revealed until end of next Decision Mode.</mod>
+				<mod name="Iron Will" 			value="2">Increases shield strength by 5.</mod>
+				<mod name="Safeguard"			value="2">When activated, all nearby allies gain 10 shields.</mod>
+				<mod name="Immolation"			value="3">Increases the retribution damage by 6.</mod>
+			</ability>
+			<ability name="Guardian Angel" cooldown="0" damage="35" phase="Prep" freeaction="false">
+				<description>Must target near an ally. Grants shield to you and targeted allies that absorbs up to 20 damage. In Dash Phase you will teleport to them, doing 35 direct damage to enemies in the area.</description>
+				<energy>Costs 100 energy.</energy>
+				<mod name="Lasting Protection"	value="1">Increases the duration of shields by 1 turn.</mod>
+				<mod name="Into the Fray"		value="2">Enemies hit are Slowed until end of turn.</mod>
+				<mod name="Savior"				value="2">Can leap to an ally anywhere on the map</mod>
+				<mod name="Archangel"			value="3">Increases shield strength by 15.</mod>
+			</ability>
+			<about>
+				Current Trust: Wildcard
+				Skills: Swordplay, defensive nanotech.
+				Know for: Sharp wits, sharper blade.
+				Motto: "The real battle exists within."
+
+				Bio: According to documents archived on HNN, Asana was a participant in "Project Nidus", an apparent Omni initiative geared toward creating nanite-infused warriors. Each warrior is said to wield an Ancient, a mythical weapon forged by GAIA in the heart of a Reactor. It is rumored that Asana is currently tasked with guarding high-ranking Omni officials and keeping watch for other Nidus initiates at large in Atlas.
+
+Years of nanite exposure have imbued her with the power to create protective forcefields and withstand brutal attacks. It also turned her purple. But don't bring it up, unless you'd like to be black and blue yourself.
+			</about>
+		</freelancer>
+		<freelancer name="Brynn" role="Frontline" health="195" affiliation="Hyperbotics">
+			<ability name="Impale" cooldown="0" damage="26" phase="Blast" freeaction="false">
+				<description>Stab with your spear, dealing 26 direct damage. Each target hit takes 4 less damage than the previous.</description>
+				<energy>Gain 8 energy per enemy hit.</energy>
+				<mod name="Perforate"				value="1">Decrease the damage reduction per target to 2.</mod>
+				<mod name="Hold the Line"			value="2">Each target hit grants 5 shielding when Aegis is activated. Stacks with multiple stabs, up to a max of 20.</mod>
+				<mod name="Reinforced Spear"		value="2">Gain 2 extra energy per target hit.</mod>
+				<mod name="Radamantium Reinforced"	value="3">The first target hit takes an additional 4 damage.</mod>
+			</ability>
+			<ability name="Aegis" cooldown="2" damage="0" phase="Prep" freeaction="true">
+				<description>Gain Cover in a direction for one turn, reducing damage from attacks.</description>
+				<energy>Gain 4 energy for each attack covered against.</energy>
+				<mod name="Energized Barrier"	value="1">Gain 2 extra energy per attack covered against.</mod>
+				<mod name="Shield Chain"		value="2">Cooldown reduced by 1 when the shield does not guard against any attacks this turn.</mod>
+				<mod name="Skybranium Alloy"	value="2">Gain 2 extra damage on your next Soaring Shield each time you block. Stacks with multiple blocks up to a max of 10 extra damage.</mod>
+				<mod name="Shieldbearer"		value="3">The cover persists for 1 extra turn.</mod>
+				<mod name="Warforged"			value="3">Gain Unstoppable for the turn.</mod>
+			</ability>
+			<ability name="Soaring Shield" cooldown="3" damage="24" phase="Blast" freeaction="false">
+				<description>Throw your shield, dealing 24 direct damage to the first enemy hit, and Rooted-Icon knocking them back. This attack can bounce off walls.</description>
+				<energy>Gain 12 energy on hit.</energy>
+				<mod name="Kinetic Buildup"		value="1">Increase knockback range by 1 for each wall it bounces off of.</mod>
+				<mod name="Wind Up"				value="2">Increase the maximum number of bounces by 1 and gain 2 damage per bounce.</mod>
+				<mod name="Press the Advantage"	value="3">Gain Might next turn.</mod>
+				<mod name="Ricoshield"			value="3">Shield bounces off the first enemy. Deal 12 damage to the second target hit.</mod>
+			</ability>
+			<ability name="Flight of the Valkyrie" cooldown="5" damage="24" phase="Dash" freeaction="false">
+				<description>Dash to a location and unleash a cone attack, dealing 24 direct damage to enemies and inflicting Weak until end of turn. Aegis is activated automatically in the direction of your attack.</description>
+				<energy>Gain 8 energy per target hit.</energy>
+				<mod name="Battle Hardened"	value="1">Gain 10 shields until end of next turn.</mod>
+				<mod name="Nimble Warrior" 	value="1">Gain Haste next turn.</mod>
+				<mod name="Booster Boots"	value="2">Increase dash distance by 1.</mod>
+				<mod name="Safeguard"		value="2">When Aegis is triggered by this ability it persists for 2 turns.</mod>
+				<mod name="Warden"			value="3">If you are hit on the turn you use this ability, the cooldown is reduced by 2.</mod>
+			</ability>
+			<ability name="Spear of Hyperion" cooldown="0" damage="35" phase="Blast" freeaction="false">
+				<description>Hurl your spear with the strength of Hyperion, dealing 35 direction damage and Rooted-Icon pulling enemies towards the center of the targeter.</description>
+				<energy>Costs 100 energy.</energy>
+				<mod name="On the Offensive"	value="1">Impale damage will not be reduced for subsequent targets next turn.</mod>
+				<mod name="Indomitable"			value="2">Gain 20 shields next turn.</mod>
+				<mod name="Shattered Will"		value="2">Targets hit are Weak-Icon weakened next turn.</mod>
+				<mod name="Sunder"				value="3">Enemies who aren't moved by the knockback take an additional 10 damage.</mod>
+			</ability>
+			<about>
+				Current Trust: Hyperbotics
+				Skills: Shielding allies. Shielding enemies (to the face).
+				Know for: Being the last known descendant of Hyperion royalty.
+				Motto: "Justice has wings."
+
+				Bio: It is said that of the great warrior dynasties that once reigned in Hyperion, Brynn’s was the finest. Her ancestry was full of generals, commanders, and lords who ruled over the city with a radamantium fist. When the Hyperion Reactor fell in 2435, her people guided thousands across the Waste to Atlas and helped established the new Trust rule by forming Warbotics.
+
+Some suggest that Brynn’s latest foray into Freelancing may be related to the dissolution of Warbotics after their defeat in the Trust War. Family pride and loyalty run deep in her history. And, as any descendant of Hyperion knows, wars don’t end until the blood runs dry.
+			</about>
+		</freelancer>
+		<freelancer name="Garrison" role="Frontline" health="190" affiliation="Hyperbotics">
+			<ability name="Piston Punch" cooldown="0" damage="26" phase="Blast" freeaction="false">
+				<description>Punch the closest enemy for 26 damage. Other enemies in range take 18 damage.</description>
+				<energy>Gain 8 energy per enemy hit.</energy>
+				<mod name="Power Glove"		value="1">Gain an additional 4 energy if you hit an enemy.</mod>
+				<mod name="Haymaker"		value="2">All enemies hit take 26 damage.</mod>
+				<mod name="One on One"		value="2">The first target hit takes an additional 4 damage.</mod>
+				<mod name="Force Capacitor"	value="3">Gain haste for the turn when you use Piston Punch</mod>
+			</ability>
+			<ability name="Hand Cannon" cooldown="1" damage="20" phase="Blast" freeaction="false">
+				<description>Blast an enemy, inflicting 20 damage and Slow-Icon slowing the target. Enemies caught in the secondary blast take 12 damage.</description>
+				<energy>Gain 8 energy per enemy hit.</energy>
+				<mod name="Tracker Rounds"		value="1">Enemies hit are revealed until end of next Decision Mode.</mod>
+				<mod name="Concussion Rounds"	value="2">Slows all enemies hit.</mod>
+				<mod name="Single Out"			value="2">Increases initial damage by 4</mod>
+				<mod name="Big Shot"			value="3">Increase range by 1 and increase the arc of the explosion.</mod>
+			</ability>
+			<ability name="Missile Barrage" cooldown="4" damage="20" phase="Prep" freeaction="true">
+				<description>After a 1 turn delay, launch missiles that deal 10 indirect damage to 3 nearby enemies. Ignores cover.</description>
+				<energy>Gain 6 energy per enemy hit.</energy>
+				<mod name="Eye in the Sky"		value="1">Enemies hit are revealed until the end of next Decision Mode.</mod>
+				<mod name="First One In" 		value="2">Gain 10 shields until the end of next turn.</mod>
+				<mod name="Locked and Loaded"	value="2">No longer a free action but damage increases by 10. Allows full movement.</mod>
+				<mod name="Double Trouble"		value="3">Missiles launch 2 turns in a row. Cooldown increased by 1 and energy gain reduced by 2</mod>
+				<mod name="Focus Fire"			value="3">Increases damage by 9. Reduces damage by 3 for each target hit beyond the first.</mod>
+			</ability>
+			<ability name="Heavy Metal" cooldown="4" damage="20" phase="Dash" freeaction="false">
+				<description>Jumps to target location, inflicting 20 direct damage and slow on nearby enemies. Garrison also gains 15 shields until end of next turn.</description>
+				<energy>Gain 8 energy per enemy hit.</energy>
+				<mod name="In Pursuit"		value="1">Gain haste next turn.</mod>
+				<mod name="Frontline" 		value="2">Increases shields to 25 shields until the end of next turn.</mod>
+				<mod name="Heavier Metal"	value="2">Increases damage by 5</mod>
+				<mod name="Quake Slam"		value="3">Roots all enemies hit. Increases cooldown by 1.</mod>
+			</ability>
+			<ability name="Shockpod" cooldown="0" damage="35" phase="Blast" freeaction="false">
+				<description>Call down a drop pod to a target location anywhere on the map, dealing 35 direct damage. Spawns four minor power-ups that recover 10 health each.</description>
+				<energy>Costs 100 energy.</energy>
+				<mod name="Special Delivery"	value="1">Shockpod refunds 50 energy if it hits no enemies.</mod>
+				<mod name="Bone Shatter"		value="2">Slows all enemies hit.</mod>
+				<mod name="Juiced Up"			value="2">Allies directly hit by minor power-ups gain an additional 15 health.</mod>
+				<mod name="Flatten"				value="3">Increases damage by 5.</mod>
+			</ability>
+			<about>
+				Current Trust: Hyperbotics
+				Skills: Fighting. Talking about fighting.
+				Know for: War-time heroics. Peace-time chaos.
+				Hobbies: Bare-knuckle boxing. Pub-crawling.
+
+				Bio: "Who's pummeled to pulp our dread enemies? It's our Garrison: the one man army!" Drinking songs of Garrison's war heroics abound, born, like him, in fields of bullets, bombs, and bots. According to legend, when injuries from an arms deal gone sideways nearly ended Garrison’s life, he crawled into a Warbotics Ballistic Exo Suit to survive. Not only did he survive, many say that the campaign of vengeance that followed won the war for the Trusts altogether. To honor his bravery and skill, his was the first resurrection contract sponsored by Warbotics.
+
+A more honest man has never lived. Especially with a drink in his hand. Talk to him after a match, and he'll foot the bill on a good brew afterward. Even if he knocks you off your feet, you can still do a pub crawl, right?
+Friends
+			</about>
+		</freelancer>
+		<freelancer name="Phaedra" role="Frontline" health="180" affiliation="EvoS">
+			<ability name="Seismic Slam" cooldown="0" damage="26" phase="Blast" freeaction="false">
+				<description>Deal 26 damage to nearby enemies and create a 13 damage shockwave that goes through walls and ignores cover.</description>
+				<energy>Gain 6 energy per enemy hit.</energy>
+				<mod name="Tremors"			value="1">Targets not in line of sight take an additional 5 damage.</mod>
+				<mod name="Caustic Good"	value="1">When destroying bugs created by Putrid Spray the target is slowed.</mod>
+				<mod name="Wind Up"			value="2">Increase near damage by 2 and far by 1.</mod>
+				<mod name="Predator"		value="2">Hitting Camo spaces will disable that region.</mod>
+				<mod name="Stagger"			value="3">Adjacent enemies are weakened next turn.</mod>
+			</ability>
+			<ability name="Putrid Spray" cooldown="4" damage="15" phase="Prep" freeaction="false">
+				<description>Spray a swarm of bugs, slowing targets. If you hit any of these targets affected by bugs, the insects burst, dealing an additional 15 damage. Bugs lasts 2 turns.</description>
+				<energy>Gain 6 energy per enemy hit.</energy>
+				<mod name="Brood"			value="1">Reduce the cooldown by 1.</mod>
+				<mod name="Lighting Bugs"	value="2">If the bugs aren't triggered, the target is revealed until end of next decision phase</mod>
+				<mod name="Big Bugs"		value="2">Increase the damage done by 3.</mod>
+				<mod name="Juicy Morsels"	value="3">Gain 5 energy when bugs burst.</mod>
+			</ability>
+			<ability name="Mending Swarm" cooldown="4" damage="0" phase="Prep" freeaction="true">
+				<description>100% of damage taken this turn is recovered over the next 2 turns, up to 80 health.</description>
+				<energy>Gain 5 energy on use.</energy>
+				<mod name="Taste of Blood"	value="1">Recover 80% health the turn after but only gain health that turn.</mod>
+				<mod name="Re-Generate" 	value="1">Reduce the cooldown by 1 if you aren't hit this turn.</mod>
+				<mod name="Chitinous"		value="2">Gain 10 shields until end of turn.</mod>
+				<mod name="Uncontrollable"	value="2">Gain Unstoppable until end of turn.</mod>
+				<mod name="Leech"			value="3">Each time you are hit this turn gain 4 energy.</mod>
+			</ability>
+			<ability name="Juggernaut" cooldown="4" damage="22" phase="Dash" freeaction="false">
+				<description>Charge Forward! When you hit an enemy or travel your maximum range, create a tremor that causes 22 direct damage and slows all enemies hit. Can dash through walls.</description>
+				<energy>Gain 8 energy per enemy hit.</energy>
+				<mod name="Paralyzing Parasites"	value="1">When destroying bugs created by Putrid Spray the target is rooted.</mod>
+				<mod name="Relentless" 				value="1">If no enemies are hit, reduce the cooldown of Juggernaut by 1.</mod>
+				<mod name="Ravage"					value="2">When directly hitting a target, deal 6 additional damage to them.</mod>
+				<mod name="Battering Ram"			value="3">Bursting through walls deals an additional 8 damage to all targets.</mod>
+			</ability>
+			<ability name="Lair" cooldown="0" damage="30" phase="Blast" freeaction="false">
+				<description>Create a large earthquake around you dealing 30 direct damage. The edges of the lair prevent enemies from moving out of it until the end of next turn.</description>
+				<energy>Costs 100 energy.</energy>
+				<mod name="Ensnare"			value="1">Increase the targeting range by 1.</mod>
+				<mod name="Hide and Seek"	value="1">Gain vision of the area inside the lair.</mod>
+				<mod name="Earthen Barrier"	value="2">Allies in the lair gain 15 shields.</mod>
+				<mod name="Aftershock"		value="2">Gain Might until the end of next turn.</mod>
+				<mod name="Broodmother"		value="3">Reduce the cooldown on Mending Swarm by 2.</mod>
+			</ability>
+			<about>
+				Current Trust: EvoS
+				Skills: Terrain manipulation. Terrifying foes… and friends.
+				Know for: Turning the Depths into a labyrinth of terror.
+				Favorite Food: She’ll tell you after she’s eaten you.
+
+				Bio: Evolution Solutions doesn’t believe in waste. When an experiment goes wrong, they pour old resources into something new. After all, who knows what creature might benefit from an extra set of chitinous legs or toxic fangs?
+
+Thus, Phaedra came into existence. The powerful creature is capable of smashing the ground with such force, she disrupts the terrain around her. The emergence of constantly evolving lairs and labyrinths throughout the Depths suggests that Phaedra has escaped from EvoS repeatedly over the course of her lifetime – most recently during a chaotic break-in at the Trust.
+
+Some terrified citizens claim that Phaedra is the notorious “terror of the Depths,” thought to feast upon the colonies of Gremunks that EvoS has discarded, though others dismiss those tales as myth. However, one only need point to the infamous Grey family massacre to know that some myths do have claws.
+			</about>
+		</freelancer>
+		<freelancer name="Rampart" role="Frontline" health="200" affiliation="Hyperbotics">
+			<ability name="Radamantium Flurry" cooldown="0" damage="28" phase="Blast" freeaction="false">
+				<description>Stab in a line dealing 28 direct damage, then spin dealing 18 direct damage to adjacent enemies.</description>
+				<energy>Gain 8 energy per enemy hit.</energy>
+				<mod name="Battle Rush"			value="1">Increase energy gain per enemy hit by 2.</mod>
+				<mod name="Area Suppression"	value="2">Increases damage done to adjacent enemies by 6.</mod>
+				<mod name="Danger Zone"			value="3">Deal 7 additional damage to enemies hit by both the stab and spin.</mod>
+				<mod name="Deadly Stab"			value="3">Increases the width of the initial stab by 50%.</mod>
+			</ability>
+			<ability name="Bulwark" cooldown="3" damage="25" phase="Prep" freeaction="false">
+				<description>Place your shield during the Prep Phase, blocking attacks. Blast enemies during the Blast Phase, inflicting 25 direct damage and Slow.</description>
+				<energy>Gain 6 energy per enemy hit and 6 energy for each ability blocked.</energy>
+				<mod name="Kinetic Absorption"	value="1">Gain 8 energy for each attack blocked.</mod>
+				<mod name="Bunker"				value="2">Gain 10 health for each attack blocked.</mod>
+				<mod name="Defensive Posture"	value="2">On use, gain 25 shields until end of next turn.</mod>
+				<mod name="Bullrush"			value="3">Enemies are not Rooted instead of Slowed.</mod>
+				<mod name="Reflective Shield"	value="3">Deal 10 damage to enemies whose attacks are blocked.</mod>
+			</ability>
+			<ability name="Fusion Lance" cooldown="3" damage="25" phase="Blast" freeaction="false">
+				<description>100% of damage taken this turn is recovered over the next 2 turns, up to 80 health.</description>
+				<energy>Gain 10 energy if you hit an enemy.</energy>
+				<mod name="Plasma Lance"				value="1">Increases damage by 5.</mod>
+				<mod name="Rocket Lance" 				value="1">Range increased by 2.</mod>
+				<mod name="Gone Fishin"					value="2">You can now select the square the enemy is knocked back to.</mod>
+				<mod name="Radamantium Tipped Blade"	value="2">Pierce through the first enemy hit.  Deal 12 damage to the second target hit.</mod>
+			</ability>
+			<ability name="Unstoppable Force" cooldown="3" damage="0" phase="Prep" freeaction="true">
+				<description>Gain Unstoppable-Icon Unstoppable and Haste-Icon Haste for the turn.</description>
+				<energy>Gain 5 energy.</energy>
+				<mod name="Special Forces"		value="1">Nearby allies also gain Unstoppable for the turn.</mod>
+				<mod name="Invincible" 			value="2">On use, gain 15 shields for the turn.</mod>
+				<mod name="Show of Force"		value="3">You also gain Might for the turn.</mod>
+				<mod name="Terrifying Presence"	value="3">Nearby enemies are Slowed for the turn.</mod>
+			</ability>
+			<ability name="Aegis Protocol" cooldown="0" damage="35" phase="Dash" freeaction="false">
+				<description>Dash to a target location and place your shield, blocking attacks. Enemies you trample over take 35 direct damage and are Slowed. Ignores Cover.</description>
+				<energy>Costs 100 energy.</energy>
+				<mod name="Protective Wake"	value="1">Allies crossed over or hit by the charge gain 20 shields for the turn.</mod>
+				<mod name="Live to Fight"	value="2">Increases damage by 5.</mod>
+				<mod name="Rocket Boosters"	value="2">Increases the maximum distance of the charge by 2.</mod>
+				<mod name="Engine of War"	value="3">Root all targets trampled over.</mod>
+			</ability>
+			<about>
+				Current Trust: Hyperbotics
+				Skills: Intimidation. Indomitable optimism.
+				Know for: Being Warbotics’ oldest active-duty product.
+				Childhood Dream: To become a rocket.
+
+				Bio: Rampart was never supposed to be built. With the AI Sentience Ban still in place after GAIA's desertion, his conception was a rebel effort in the midst of civil unrest and desperation. Though Warbotics kept his AI primitive to prevent him from uprising like GAIA, he still exhibits a surprising intellect and empathy toward both humans and his fellow bots. The full extent of his sentience is unknown.
+
+He is programmed to shield allies from harm, no matter the cost. His indestructible shield can deflect any amount of damage (as long as his allies remember to stand behind it).
+			</about>
+		</freelancer>			
+		<freelancer name="Rask" role="Frontline" health="200" affiliation="EvoS">
+			<ability name="Maul" cooldown="0" damage="26" phase="Blast" freeaction="false">
+				<description>Claw your enemies, doing 26 direct damage to those adjacent to you, and 22 direct damage to those farther away.</description>
+				<energy>Gain 8 energy per enemy hit.</energy>
+				<mod name="Primal Fury"		value="1">Generate an additional 3 energy on near targets and 1 energy on far targets.</mod>
+				<mod name="Crippling Slash"	value="2">Adjacent enemies hit are Slow-Icon slowed for the turn.</mod>
+				<mod name="Shredding Steel"	value="2">Cover damage reduction is halved.</mod>
+				<mod name="Beastial"		value="3">Near enemies take an additional 2 damage and further enemies take an additional 4 damage.</mod>
+			</ability>
+			<ability name="Upheaval" cooldown="4" damage="20" phase="Blast" freeaction="false">
+				<description>Knockback an enemy, dealing 20 direct damage.</description>
+				<energy>Gain 10 energy if you hit an enemy.</energy>
+				<mod name="Power Ripple"	value="1">Gain 6 additional energy if you hit an enemy.</mod>
+				<mod name="Fling"			value="2">Increases range by 1 and knockback range by 1.</mod>
+				<mod name="Aftershock"		value="3">Affects all targeted enemies.</mod>
+				<mod name="Ravage"			value="3">Deals an additional 10 damage</mod>
+			</ability>
+			<ability name="Pain Train" cooldown="4" damage="20" phase="Dash" freeaction="false">
+				<description>Trample over enemies, dealing 20 direct damage.</description>
+				<energy>Gain 8 energy per enemy hit.</energy>
+				<mod name="Mad Dash"			value="1">Increases damage at the landing location by 3.</mod>
+				<mod name="Pounce" 				value="2">Gain 4 additional Energy per target hit.</mod>
+				<mod name="Surge"				value="2">Increases range by 1.</mod>
+				<mod name="Trample Underfoot"	value="3">Enemies hit are slowed for the turn.</mod>
+			</ability>
+			<ability name="Augmented Regeneration" cooldown="8" damage="0" phase="Prep" freeaction="true">
+				<description>Gain 10 health per turn if over 60 health. Activate when at 65 or less health to gain 15 health per turn instead. Last 2 turns.</description>
+				<energy>Gain 5 energy.</energy>
+				<mod name="Unrelenting"			value="1">Gain unstoppable for the turn.</mod>
+				<mod name="Pain Tolerance" 		value="2">Increases the threshold to 90 health.</mod>
+				<mod name="Quick Mend"			value="2">Gain all health over one turn, 20 health if above the threshold, or 30 health if below.</mod>
+				<mod name="Shielding Factor"	value="3">Gain 15 shields on use.</mod>
+			</ability>
+			<ability name="Uncontrollable Fury" cooldown="0" damage="20" phase="Blast" freeaction="true">
+				<description>Automatically activates at full energy, resetting all cooldowns and creating a zone of plasma that deals 20 indirect damage and lasts for 2 turns.
+
+Passive: Gain energy when damaged.</description>
+				<energy>Costs 100 energy.</energy>
+				<mod name="Rejuvenating Rage"	value="1">Gain 10 health.</mod>
+				<mod name="Controllable Fury"	value="2">No longer triggers automatically.</mod>
+				<mod name="Driving Rages"		value="2">Grants unstoppable and haste until end of next turn.</mod>
+				<mod name="Fueled by Rage"		value="3">Grants might for the next 2 turns.</mod>
+			</ability>
+			<about>
+				Current Trust: EvoS
+				Skills: Clinical Exobiology, preening.
+				Know for: EvoS' crowning achievement.
+				Origins: Evolution Solutions Birthing Vats.
+
+				Bio: Evolution Solutions is tight-lipped about their crowning achievement's inception. Despite the hybrid beast's enviable mass market popularity, only a handful of people know Rask's true origins. Conspiracy theorists have spread tales of a nightmareish production that cost thousands of lives, millions of ISO, and left the Depths in disrepair. But since when have rumors stopped Rask Plushies from flying off the shelves?
+
+Rask's "Power Juice" flows through his body at all times. Despite its branding, its chemical makeup is fully unique from the Rask drink that shares its name. Which is good. Because that would be gross.
+			</about>
+		</freelancer>	
+		<freelancer name="Titus" role="Frontline" health="200" affiliation="Helio Corps">
+			<ability name="Overhead Slam" cooldown="0" damage="28" phase="Blast" freeaction="false">
+				<description>Chop at your enemies, dealing 28 direct damage to central enemies and 20 direct damage to others.</description>
+				<energy>Gain 8 energy per enemy hit.</energy>
+				<mod name="Cascade"				value="1">For each enemy hit by the central attack, the damage of the splash is increased by 3.</mod>
+				<mod name="Battlefield Triage"	value="2">Gain 5 health for enemies hit in the center and 3 health for the sides.</mod>
+				<mod name="Shieldbreaker"		value="2">Ignores cover.</mod>
+				<mod name="Power Hitter"		value="3">Increase the central hit width by 50% and deal and additional 6 damage. No longer hits side areas.</mod>
+			</ability>
+			<ability name="Berserker Charge" cooldown="4" damage="25" phase="Dash" freeaction="false">
+				<description>Rush forward, dealing 25 direct damage and Slow to the first enemy in your path, and cleaving nearby enemies for 25 direct damage. This ability's cooldown is reduced to 2 if an enemy is hit.</description>
+				<energy>Gains 8 energy per enemy hit.</energy>
+				<mod name="Cleaver"		value="1">Ignores cover.</mod>
+				<mod name="Pursuit"		value="1">Gain Haste-Icon Haste until the end of next turn.</mod>
+				<mod name="Hamstring"	value="2">All targets hit are Slow-Icon Slowed for the turn.</mod>
+				<mod name="Harvest"		value="2">Gain 5 health per enemy hit.</mod>
+				<mod name="Momentum"	value="2">Deal an additional 1 damage to the main target per square traveled.</mod>
+			</ability>
+			<ability name="Thundering Roar" cooldown="4" damage="0" phase="Prep" freeaction="true">
+				<description>Unleash a thunderous shout, causing enemies to become Weak until the end of the turn.</description>
+				<energy>Gain 8 energy per enemy hit.</energy>
+				<mod name="Terrifying Cry"	value="1">Enemies hit are additionally Revealed until the end of the next Decision Mode.</mod>
+				<mod name="Echoing Roar" 	value="2">Increases Energy gain per target hit by 3.</mod>
+				<mod name="Rallying Cry"	value="2">Gain 5 health per target hit.</mod>
+				<mod name="Barbarian Rage"	value="3">Allies gain Might-Icon Might until the end of the turn. Gain 3 energy per ally hit. Increase the cooldown by 1 turn.</mod>
+			</ability>
+			<ability name="Dirty Fighting" cooldown="5" damage="0" phase="Prep" freeaction="true">
+				<description>Fling a dagger at an enemy's weak spot, causing them to take an additional 25 indirect damage the next time they are hit by a direct damage effect. They are also Revealed until the end of the next Decision Mode.</description>
+				<energy>Gain 10 energy if you hit an enemy.</energy>
+				<mod name="Rapid Follow-Up"		value="1">Gain Haste for the turn.</mod>
+				<mod name="Cheap Shot" 			value="2">Target is also Slowed until the end of the next turn.</mod>
+				<mod name="Flurry of Daggers"	value="2">If an ally triggers the explosion, the cooldown of Dirty Fighting is reduced by 2.</mod>
+				<mod name="Puncture"			value="3">Pierce the first target hit. The second dagger deals 12 damage if it is triggered.</mod>
+			</ability>
+			<ability name="Deathblow" cooldown="0" damage="40" phase="Blast" freeaction="false">
+				<description>Ravage the land, creating a shockwave of immense power dealing 40 direct damage and Rooting nearby enemies, 35 direct damage and Slowing further enemies, and 30 direct damage to furthest enemies.</description>
+				<energy>Costs 100 energy.</energy>
+				<mod name="Subduction Zone"	value="1">Increase the width of the arc by 25 degrees.</mod>
+				<mod name="Battle Rage"		value="2">Deal 1 additional damage for every 7% health you are missing.</mod>
+				<mod name="Executioner"		value="2">Deal an additional 10 damage to enemies below 50% health.</mod>
+				<mod name="World Shatterer"	value="3">The first two arcs each take half of the targeter.</mod>
+			</ability>
+			<about>
+				Current Trust: Wildcard
+				Skills: Slaying monsters for fun (and profit).
+				Know for: Sole survivor of a massacre in the Waste… that he started.
+				Favourite Saying: "I'll forgive you. My blade won't."
+
+				Bio: Despite the rumors, there is life in the Waste. If you’ve never seen it, it’s because Titus got there first. The nomadic warrior's reputation is well-known by all those who sought refuge in Atlas as the other reactors failed. The many beasts he obliterated along the road allowed thousands of travelers to reach the megacity. While his actions benefited thousands, many doubt his motivations were altruistic.
+
+His supernatural strength and shouts can root enemies in fear, tear apart his surroundings, and cause severe tinnitus. (That last part is probably why he is a lone wolf.)
+			</about>
+		</freelancer>		
+		<freelancer name="Aurora" role="Support" health="160" affiliation="Omni Trust">
+			<ability name="Shock Therapy" cooldown="0" damage="20" phase="Blast" freeaction="false">
+				<description>Project a stream of energy, dealing 20 direct damage to enemies and restoring 10 health to allies.</description>
+				<energy>Gain 5 energy per enemy hit and 3 energy per ally hit.</energy>
+				<mod name="Altruism"		value="1">Allies now gain 2 energy when hit.</mod>
+				<mod name="Up the Voltage"	value="2">Increases damage by 3</mod>
+				<mod name="Vain"			value="2">Heal yourself for 4 as well.</mod>
+				<mod name="Group Therapy"	value="3">Increases ally healing by 4.</mod>
+			</ability>
+			<ability name="Ion Cloud" cooldown="3" damage="20" phase="Blast" freeaction="false">
+				<description>Create an entropic cloud that deals 20 direct damage when cast and lasts 2 turns. Enemies moving through or starting their turn in the cloud take 20 additional indirect damage. Allies within or moving through the cloud heal for 4 health.</description>
+				<energy>Gains 8 energy per enemy hit.</energy>
+				<mod name="Radiant Mist"		value="1">Reveals enemies until end of next Decision Mode.</mod>
+				<mod name="Stable Ions"			value="3">Increases duration by 1 turn.</mod>
+				<mod name="Overcast"			value="2">Reduce the cooldown by 1 turn.</mod>
+				<mod name="Invigorating Cloud"	value="2">Restores an additional 2 health to allies in the cloud for every turn cloud is active.</mod>
+			</ability>
+			<ability name="Healing Flare" cooldown="3" damage="0" phase="Prep" freeaction="false">
+				<description>Restore 30 health to yourself or an ally. Knockback enemies next to the target during the Blast Phase.</description>
+				<energy>Gain 12 energy.</energy>
+				<mod name="Infusion"		value="1">Grant the target 6 energy.</mod>
+				<mod name="Seeking Flare" 	value="2">Can be targeted through walls.</mod>
+				<mod name="Flareburst"		value="3">Enemies hit by the flare take 15 indirect damage.</mod>
+				<mod name="Surging Flare"	value="3">Restores an additional 8 health if the target is under 50% health.</mod>
+			</ability>
+			<ability name="Paralyzer" cooldown="5" damage="0" phase="Prep" freeaction="false">
+				<description>Unleash a surge of energy making enemies Weak-Icon Weak and granting 10 shields to herself and allies for the turn.</description>
+				<energy>Gain 5 energy per enemy hit and 3 energy per ally hit.</energy>
+				<mod name="Laser Designator"value="1">Enemies hit are also Revealed until end of next Decision Mode.</mod>
+				<mod name="Gravity Well" 	value="2">Enemies hit are also Slowed for the turn.</mod>
+				<mod name="Rapid Paralysis"	value="2">This ability's cooldown is reduced by 1 for each target hit, up to 3 max.</mod>
+				<mod name="Surge of Might"	value="3">Aurora and targeted allies gain Might for the turn.</mod>
+				<mod name="Tenacious"		value="3">Aurora and targeted allies become Unstoppable for the turn.</mod>
+			</ability>
+			<ability name="Heart of the Storm" cooldown="0" damage="24" phase="Blast" freeaction="false">
+				<description>Project powerful beams in four directions, enemies take 24 direct damage while Aurora and her allies gain 24 health. Can shoot through walls and ignores Cover.</description>
+				<energy>Costs 100 energy.</energy>
+				<mod name="Temporal Shift"	value="1">Slows enemies for the turn and Hastes allies until the end of the next turn.</mod>
+				<mod name="Focused Radiance"value="2">Each beam that only hits one target, friendly or enemy, increases in potency by 6.</mod>
+				<mod name="Supernova"		value="2">Increases the number of beams to 8. Decreases their potency by 4.</mod>
+				<mod name="Sudden Jolt"		value="3">On use, reduces all active cooldowns by 1.</mod>
+			</ability>
+			<about>
+				Current Trust: Omni Trust
+				Skills: Curing people. Destroying people.
+				Know for: Manipulating time, space, and her own DNA.
+				Weapon of Choice: Razor-sharp condescension.
+
+				Bio: Aurora is believed to have been an Omni scientist who vanished while studying the Reactor anomaly, "Quark". After the scientist's disappearance, Aurora emerged from the Reactor, shocking everyone. Literally. Her damage was so thorough, Omni sold out their entire stock of healing catalysts. It is speculated that Aurora has rejoined Omni as a Freelancer to test and strengthen her atomic control over living matter.
+
+Aurora's form mimics the Reactor's abilities, allowing her to mend or destroy atoms at will. How her skills are focused depend entirely on whether she considers those around her to be allies or obstacles.
+			</about>
+		</freelancer>	
+		<freelancer name="Dr. Finn" role="Support" health="165" affiliation="EvoS">
+			<ability name="Water Spout" cooldown="0" damage="24" phase="Blast" freeaction="false">
+				<description>Create a cone of high pressured water that deals between 12 and 24 direct damage depending on the size of the targeter.</description>
+				<energy>Gain 5 energy per enemy hit.</energy>
+				<mod name="Catch of the Day"value="1">Gain an additional 6 energy if only one target is hit.</mod>
+				<mod name="Firehose"		value="2">Increase the maximum arc by 30 degrees.</mod>
+				<mod name="High Pressure"	value="3">Deal up to an additional 3 damage the smaller the arc of the cone is.</mod>
+				<mod name="Spray and Play"	value="3">Increase the ally healing amount of the next Refreshing Spray by 2 per enemy hit.</mod>
+			</ability>
+			<ability name="Refreshing Spray" cooldown="3" damage="0" phase="Prep" freeaction="false">
+				<description>Create a cone of healing waters, healing allies for 24 to 30 depending on size, and himself for 12</description>
+				<energy>Gain 6 energy per ally hit.</energy>
+				<mod name="Heal in One"	value="1">If only one ally is hit they heal for an additional 8</mod>
+				<mod name="Self Fish"	value="2">Finn heals himself for an additional 8</mod>
+				<mod name="Shored Up"	value="2">Targets hit also gain 6 shields for the turn.</mod>
+				<mod name="Mussels"		value="3">Nearest ally hit gains might for the turn.</mod>
+			</ability>
+			<ability name="Electrifying Eels" cooldown="4" damage="20" phase="Blast" freeaction="false">
+				<description>Launch eels at an enemy that deal 20 direct damage and reveal until the end of the next decision mode. Ignores Cover. The next two Blast Phases, the eels launch themselves at the nearest enemy within 4 spaces causing the same effect.</description>
+				<energy>Gain 6 energy if you hit a target.</energy>
+				<mod name="Master Angler"		value="1">Deals an additional 6 damage when it jumps.</mod>
+				<mod name="Spout of Sight" 		value="2">Can hit target that are invisible or in camouflage</mod>
+				<mod name="That Magic Eeling"	value="3">Increase the range of the jump by 1.</mod>
+				<mod name="That's a Moray"		value="3">The eels can now target or jump to allies, granting them energized next turn.</mod>
+			</ability>
+			<ability name="Bubble Trouble" cooldown="4" damage="10" phase="Prep" freeaction="false">
+				<description>Attaches a bubble to an ally, shielding them for 45. During Blast phase the bubble pops dealing 10 indirect damage and Slow-Icon slowing enemies for the turn.</description>
+				<energy>Gain 8 energy on cast and 4 energy per enemy hit.</energy>
+				<mod name="Unstop-Bubble"	value="1">Shielded target becomes unstoppable for the turn.</mod>
+				<mod name="Bubble Time"		value="2">Reduce the cooldown by 1 but also reduce the amount of shielding by 10</mod>
+				<mod name="Cast Away"		value="2">Can be targeted through walls.</mod>
+				<mod name="Bubble Trap"		value="3">Enemies hit are now rooted</mod>
+			</ability>
+			<ability name="Maelstrom" cooldown="0" damage="30" phase="Blast" freeaction="false">
+				<description>Summon churning waters that deal 30 direct damage and pull in enemies.</description>
+				<energy>Costs 100 energy.</energy>
+				<mod name="Cast Off"			value="1">Gain Unstoppable until end of turn.</mod>
+				<mod name="Grand Finn-ale"		value="2">Deal an additional 10 damage to targets in the center and 5 to targets adjacent to the center.</mod>
+				<mod name="Riptide"				value="2">Enemies hit are slowed until end of next turn.</mod>
+				<mod name="Leech Infestation"	value="3">Gain 10 health per enemy hit.</mod>
+			</ability>
+			<about>
+				Current Trust: EvoS
+				Skills: Reassembling your body parts in new and exciting ways.
+				Know for: Heals, zeal, and Reactor-energized eels.
+				Childhood Dream: To become a fish! (Only 50% more to go!)
+
+				Bio: The "Father of Inter-Species Hybridization" often credits his scientific success at EvoS to an insatiable curiosity. Few alive know how insatiable it truly is. When willing subjects of his Reactor-ized fish experiments were finally depleted, he volunteered his own body to science to see his vision through. Other aquatic hybrids in Atlas have expressed a distrust of Dr. Finn, citing suspicions that he only converted for the jokes.
+
+Dr. Finn's eel-energized ray gun is customized to his specifications. It has a thermo-accelerator, a chemical synthesizer, and a matter replicator that provides him with an endless stream of eels (and test subjects).
+			</about>
+		</freelancer>	
+		<freelancer name="Helio" role="Support" health="160" affiliation="Helio Corps">
+			<ability name="Echo Hammer" cooldown="0" damage="22" phase="Blast" freeaction="false">
+				<description>Strike the first target for 22 direct damage, then chains up to 3 additional targets for 12 direct damage.</description>
+				<energy>Gain 6 energy per enemy hit.</energy>
+				<mod name="Magnetized"			value="1">Chains can target invisible enemies.</mod>
+				<mod name="Defensive Conduit"	value="2">Each target hit grants 2 shielding on the recipient of Black Hole Generator. Stacks with multiple hits, up to a max of 10</mod>
+				<mod name="Sledge"				value="2">Increase the damage of all hits by 3.</mod>
+				<mod name="Reverberation"		value="3">Increase distance between chains by 1.</mod>
+			</ability>
+			<ability name="Blast Shield" cooldown="3" damage="0" phase="Prep" freeaction="true">
+				<description>Target ally gains 30 shields until end of turn. Has 2 charges.</description>
+				<energy>Gain 8 energy.</energy>
+				<mod name="Nano Rush"	value="1">Shielded target gains Haste next turn.</mod>
+				<mod name="Omni-Barrier"value="2">Can be targeted through walls.</mod>
+				<mod name="Fortress"	value="3">If used on an ally also shields self for 14.</mod>
+				<mod name="Power Share"	value="3">Shielded target gains Might for the turn.</mod>
+			</ability>
+			<ability name="Black Hole Generator" cooldown="4" damage="10" phase="Prep" freeaction="false">
+				<description>Fabricate a miniature black hole on an ally that will detonate next turn, pulling enemies over the black hole and dealing 10 indirect damage to each. Ignores cover.</description>
+				<energy>Gain 8 energy on use and 4 energy per enemy hit.</energy>
+				<mod name="Galvanic Core"	value="1">Gain 4 additional energy on use.</mod>
+				<mod name="Event Horizon"	value="2">Target gains 10 shields.</mod>
+				<mod name="Supermassive"	value="2">Target gains Unstoppable until the end of next turn.</mod>
+				<mod name="Gravity Warp"	value="3">Enemies hit are aslowed until the end of next turn.</mod>
+			</ability>
+			<ability name="Disruption Matrix" cooldown="4" damage="25" phase="Prep" freeaction="false">
+				<description>Place a disruptive wall, dealing 25 indirect damage to enemies who move through it, and weakening them next turn.</description>
+				<energy>Gain 8 energy per enemy hit.</energy>
+				<mod name="Completed Circuit"	value="1">Gain 2 additional energy per enemy hit.</mod>
+				<mod name="Electric Fence"		value="2">Enemies passing through the wall are Slow-Icon slowed until the end of the next turn.</mod>
+				<mod name="Master Craftsman"	value="2">Increase range by 1.</mod>
+				<mod name="Enhanced Matrix"		value="3">Decrease cooldown by 1.</mod>
+			</ability>
+			<ability name="Battleforged" cooldown="0" damage="26" phase="Prep" freeaction="false">
+				<description>Target ally gains 60 shields. During the Blast Phase, a vortex of energy expands outwards, dealing 26 indirect damage to nearby enemies. Lasts 2 turns.</description>
+				<energy>Costs 100 energy.</energy>
+				<mod name="Transference"		value="1">Battleforged can be targeted through walls.</mod>
+				<mod name="Adaptive Shielding"	value="2">The targeted ally gains 20 additional shields next turn.</mod>
+				<mod name="Ironclad"			value="3">Lasts an additional turn. Gain Unstoppable for the duration.</mod>
+				<mod name="Weapon of War"		value="3">Target gains Might for the duration.</mod>
+			</ability>
+			<about>
+				Current Trust: Helio Corps
+				Skills: Being a genius. Never letting anyone forget it.
+				Know for: Recreating technology not seen since the Immortal Era.
+				Occupation: NanoSmith, first. CEO, second.
+
+				Bio: Helio's prodigious genius caught the eye of Omni Trust after he was found to be the first nanosmith ever to re-create a piece of lost Titan technology. Together, they ushered in a new age of innovation, creating new catalysts, Self-E Balls, and more. Later, in partnership with Omni Trust, he founded his own independent organization, HelioCorp, to develop and test alternative forms of Reactor-powered tech.
+
+Many regard Helio as the foremost Reactor expert and humanity’s best bet to re-awaken fallen reactors worldwide. And so does he.
+			</about>
+		</freelancer>
+		<freelancer name="Khita" role="Support" health="130" affiliation="Wildcard">
+			<ability name="Warped Arrow" cooldown="0" damage="28" phase="Blast" freeaction="false">
+				<description>Loose a curving arrow that deals 28 direct damage. Click once to start aiming, then a second time to finish.</description>
+				<energy>Gain 12 energy on hit.</energy>
+				<mod name="To The Knee"			value="1">Triggering Take Aim! also slows the target hit.</mod>
+				<mod name="Leaf In The Wind"	value="2">Increases the maximum curve angle by 20 degrees.</mod>
+				<mod name="Stocked Quiver"		value="2">Gain 3 additional energy on hit.</mod>
+				<mod name="Fly True"			value="3">Arrow pierces the first target, dealing 8 damage to the next target.</mod>
+			</ability>
+			<ability name="Resonance Burst" cooldown="3" damage="0" phase="Prep" freeaction="false">
+				<description>Create an energy fluctuation that grants 30 shields to allies and Weak-Icon weakens enemies until end of turn.</description>
+				<energy>Gain 6 energy for each enemy hit and 4 per ally hit.</energy>
+				<mod name="Resonant Capacitor"	value="1">Gain 2 more energy per target hit.</mod>
+				<mod name="Focused Burst"		value="2">Shield is strengthened by 6 if only one ally is shielded.</mod>
+				<mod name="Jelly Legs"			value="2">Enemies hit are also slowed until end of turn.</mod>
+				<mod name="Sonic Resonance"		value="3">Up to 10 remaining shields can persist for 1 extra turn.</mod>
+			</ability>
+			<ability name="Take Aim" cooldown="4" damage="0" phase="Prep" freeaction="true">
+				<description>Mark an enemy until end of next turn. The first time an ally deals direct damage to the marked enemy, the ally is healed for 25.</description>
+				<energy>Gain 4 energy on use and 2 energy each time the target is hit.</energy>
+				<mod name="Sharpshooter"	value="1">Your attack that triggers Take Aim! deals 4 additional damage.</mod>
+				<mod name="Moment of Glory"	value="2">Allies below 50% health receive 5 additional healing.</mod>
+				<mod name="RFID Chip"		value="2">Targeted enemy is Revealed-Icon revealed until the end of next decision mode.</mod>
+				<mod name="Aim Assist"		value="2">Can be targeted through walls.</mod>
+				<mod name="Aim Again!"		value="3">Allies are healed for 5 the second time they hit a marked target.</mod>
+			</ability>
+			<ability name="Vaulting Shot" cooldown="5" damage="20" phase="Dash" freeaction="false">
+				<description>Dash to a location then fire an arrow in the opposite direction which deals 20 direct damage and Slow-Icon slows until end of turn.</description>
+				<energy>Gain 8 energy per enemy hit.</energy>
+				<mod name="Ready, Aim, Fire!"	value="1">Triggering Take Aim! with Vaulting Shot also roots the marked target for one turn.</mod>
+				<mod name="Surge of Energy"		value="1">Gain 2 more energy per target hit.</mod>
+				<mod name="Cover the Field"		value="2">Increase shot targeting angle by 40 degrees.</mod>
+				<mod name="Light-Footed"		value="2">Gain Haste until end of next turn.</mod>
+				<mod name="Survivalist"			value="3">Increases the damage done by 6</mod>
+			</ability>
+			<ability name="Rain of Arrows" cooldown="0" damage="28" phase="Blast" freeaction="false">
+				<description>Rain arrows down in a line, dealing 28 direct damage to enemies and rooting them. Choose two points within range to create the line of effect. Does not require line of sight. Ignores cover.</description>
+				<energy>Costs 100 energy.</energy>
+				<mod name="Cloudy Skies"		value="1">Gain energized until end of next turn.</mod>
+				<mod name="Heavy Rain"			value="1">Deals an additional 5 damage to enemies below 50% health.</mod>
+				<mod name="Crippling Blow"		value="2">Enemies hit are Slowed next turn.</mod>
+				<mod name="Pins and Needles"	value="2">Reduce cooldown of Take Aim! by 1.</mod>
+				<mod name="Deluge of Arrows"	value="3">Adds an additional segment to the arrow path. The max length of each segment is 3.</mod>
+			</ability>
+			<about>
+				Current Trust: Wildcard
+				Skills:Mind-bending hook shots. Laughing at you (and herself).
+				Know for: Surviving the waste with (some of) her sanity intact.
+				Favorite Thing About Atlas: "The people! And clean water! Both great."
+
+				Bio: While no official records of Khita's life before Atlas exist, the lancer herself is candid with tales of her adventures in the Waste. "Titus saved my life out there!" she declared in holo-streams across Atlas. "I couldn't kill anything before he came along. Then, it was like, dead food walking! PING!"
+
+Some insist that her chipper demeanor is a ruse. Witnesses to her skill say that much like her self-proclaimed mentor, Titus, Khita is a fearless, brutal warrior. With her set of specialized arrows, she is able to attack targets and aid allies from near impossible angles. Silent on the hunt, the only thing that lets you know she's coming is the sound of peeling laughter just before her arrow finds its mark.
+			</about>
+		</freelancer>
+		<freelancer name="Meridian" role="Support" health="180" affiliation="Hyperbotics">
+			<ability name="Dawnhammer" cooldown="0" damage="26" phase="Blast" freeaction="false">
+				<description>Smash the ground in front of you, dealing 26 direct damage.</description>
+				<energy>Gain 8 energy per enemy hit.</energy>
+				<mod name="Daybreak"		value="1">Gain 4 additional energy per hit while Daybreak is active.</mod>
+				<mod name="Blunt Force"		value="2">Reduce the effects of Cover by half.</mod>
+				<mod name="Bludgeon"		value="3">Deal 4 additional damage in the circle portion of the template.</mod>
+				<mod name="Path of Glory"	value="3">Gain haste until the end of turn.</mod>
+			</ability>
+			<ability name="Reforge" cooldown="3" damage="0" phase="Prep" freeaction="false">
+				<description>Heal an ally for 10 and up to an additional 35 based on their missing health. Enemies around the target are made weak. You can target yourself if no ally is in range, but you will not receive twice the healing.</description>
+				<energy>Gain 10 energy.</energy>
+				<mod name="Kinetic Charger"		value="1">Gain 5 energy each time you are attacked by an enemy on the turn you cast this ability.</mod>
+				<mod name="Local Anesthetic"	value="2">Heal you and your target for an additional 5, reduced by 1 for each square away you are.</mod>
+				<mod name="Field Medic"			value="2">You gain haste until end of turn.</mod>
+				<mod name="Guiding Light"		value="2">Can target through walls.</mod>
+				<mod name="Back from the Brink"	value="3">Increasing the heal amount to your targets by up to 10 more based on missing health.</mod>
+			</ability>
+			<ability name="Bone Shatter" cooldown="3" damage="28" phase="Blast" freeaction="false">
+				<description>Fabricate a miniature black hole on an ally that will detonate next turn, pulling enemies over the black hole and dealing 10 indirect damage to each. Ignores cover.</description>
+				<energy>Gain 8 energy on use and 4 energy per enemy hit.</energy>
+				<mod name="Whirling Dynamo"		value="1">Gain 4 additional energy per hit while Zenith is active.</mod>
+				<mod name="Kneecapper"			value="2">Enemies that dashed this turn are hit for an additional 8 damage.</mod>
+				<mod name="Wallshatter"			value="2">Reduce the effects of cover by half.</mod>
+				<mod name="Compound Fracture"	value="3">Hit enemies are also weakened next turn.</mod>
+				<mod name="Zealous"				value="3">Cooldown of Boneshatter is reduced by 1 per enemy hit past the first.</mod>
+			</ability>
+			<ability name="Solar Strike" cooldown="4" damage="22" phase="Blast" freeaction="false">
+				<description>Throw your hammer at target location, dealing 22 direct damage and revealing targets in the central ring and dealing 18 direct damage to targets in the outer ring. Ignores cover.</description>
+				<energy>Gain 8 energy per enemy hit.</energy>
+				<mod name="Heave Ho"		value="1">Increase range by 1</mod>
+				<mod name="Shining Justice"	value="1">Gain 4 additional energy per hit while Zenith is active.</mod>
+				<mod name="Flashpoint"		value="2">Increase central damage by 3 for each enemy hit in the outer ring.</mod>
+				<mod name="Heavy Justice"	value="3">If no target is hit in the center, all targets are slowed.</mod>
+			</ability>
+			<ability name="Zenith" cooldown="0" damage="0" phase="Prep" freeaction="true">
+				<description>Summon a fusion orb that shields you and your allies for 15 each turn. While active, you are unstoppable. Lasts until deactivated or until the energy cost cannot be paid. Goes on a 2 cooldown when disabled.</description>
+				<energy>Requires 20 energy to cast, but the cost increases by 20 per turn until deactivated.</energy>
+				<mod name="Sunbathing"		value="1">Allies in the aura gain 2 energy, increasing by 2 each turn it is active.</mod>
+				<mod name="Sunblock"		value="2">Gain 3 extra self shields per enemy in the aura.</mod>
+				<mod name="Sunburst"		value="2">Allies affected by Zenith gain 5 extra healing from Reforge</mod>
+				<mod name="Praise the Sun"	value="3">Shielding amount increases by 3 each turn it is active.</mod>
+				<mod name="Sunstoppable"	value="3">Allies also gain Unstoppable the first turn it is active.</mod>
+			</ability>
+			<about>
+				Current Trust: Hyperbotics
+				Skills: Killing you with kindness (and also a giant hammer).
+				Know for: Keeping the Hyperion Stronghold safe for over a century.
+				Deepest Fears: Failing to restore Hyperion. Being melted by his own hammer. Bugs.
+
+				Bio: Whispers of the "miracle maker from Hyperion" preceded Meridian's arrival in Atlas. The paint was dry on his new Trust, Hyperbotics before he'd taken one step into the city. Some say he bribed the Trusts with such incredible wealth, they could rebuild all of Atlas in pure radamantium. As of yet, the city's only major change has been the blue rise of Hyperbotics across the skyline, leaving many to wonder how the ancient automaton marshalled such power so quickly.
+
+His presence inspired immediate loyalty from a number of Freelancer - Brynn in particular. He's also been seen frequently at Zuki's Flying Junkyard, which has created much gossip over whether or not he's had any work done. (For the record, when asked, the prideful automaton insists he's 100% original).
+			</about>
+		</freelancer>		
+		<freelancer name="Orion" role="Support" health="170" affiliation="Omni Trust">
+			<ability name="Empyreal Ruin" cooldown="0" damage="22" phase="Blast" freeaction="false">
+				<description>Blast enemies with empyrean energy, dealing 22 direct damage to targets in the center and 16 direct damage to others. Ignores cover.</description>
+				<energy>Shards: Increase outer explosion radius by 10% per shard.</energy>
+				<mod name="Focused Flames"			value="1">Deal 5 additional damage if only one enemy is hit.</mod>
+				<mod name="Amplified Eruption"		value="2">Deal 1 additional damage per shard.</mod>
+				<mod name="Devour Energy"			value="3">Gain 5 energy for each enemy hit.</mod>
+				<mod name="Empyreal Destruction"	value="3">The base radius is increased by 20%.</mod>
+			</ability>
+			<ability name="Fate Transfer" cooldown="3" damage="0" phase="Prep" freeaction="false">
+				<description>Grant yourself 20 shields, then redirect 75% of the damage the ally takes this turn. All of the damage taken from this ability converts directly into energy.</description>
+				<energy>Shards: You gain additional 3 shields per shard.</energy>
+				<mod name="Shared Agony"	value="1">Only take 50% of damage from your ally. They gain 15 Shields.</mod>
+				<mod name="Augment Barrier"	value="2">Gain an additional 2 shields per shard.</mod>
+				<mod name="Rebuild"			value="2">Next turn heal 20% of damage redirected through Fate Transfer.</mod>
+				<mod name="Divine Purpose"	value="3">Both you and your target become Unstoppable for the turn.</mod>
+				<mod name="Energy Leech"	value="3">Gain an additional 25% energy from damage redirected through Fate Transfer.</mod>
+			</ability>
+			<ability name="Quantum Core" cooldown="3" damage="15" phase="Prep" freeaction="true">
+				<description>Target an ally as a focal point of pure energy. When they are hit with a damaging ability an explosion erupts for 15 indirect damage.</description>
+				<energy> </energy>
+				<mod name="Punish the cowardly"	value="1">If Quantum Core is not triggered, reduce the cooldown by 1 turn.</mod>
+				<mod name="Benevolent"			value="2">Target gains 2 shields per shard.</mod>
+				<mod name="Pain and Gain"		value="2">Gain 5 energy per enemy hit.</mod>
+				<mod name="Vengeful"			value="2">Deal 2 additional damage per shard.</mod>
+				<mod name="Bow Down"			value="3">Slow enemies hit until end of turn.</mod>
+			</ability>
+			<ability name="Astral Fusion" cooldown="4" damage="0" phase="Prep" freeaction="false">
+				<description>Heal your target for 10 health a turn for 2 turns. Heals himself for the first turn's amount if used on an ally.</description>
+				<energy>Shards: Target gains an additional 2 health per turn per shard.</energy>
+				<mod name="Innate Potency"			value="1">Increase healing by 7 per turn. No longer gains any bonus from shards.</mod>
+				<mod name="Intervention"			value="1">Heal an additional 10 health if the target is under the effect of Quantum Core.</mod>
+				<mod name="Enhanced Reconstruction"	value="2">Increase healing by 1 per shard.</mod>
+				<mod name="Imnipotent"				value="2">Can be targeted through walls.</mod>
+				<mod name="Mend the Broken"			value="3">If used on an ally below 50% health they gain 15 shields for the turn.</mod>
+			</ability>
+			<ability name="Cosmic Flare" cooldown="0" damage="30" phase="Blast" freeaction="false">
+				<description>Consume all shards to gain 30 health and deal 30 direct damage in an area. Gain Unstoppable for the turn. Passive: Gain a shard for every 20 energy held. Half of the damage taken converts into energy. Lose 75% of energy on death. Energize does not affect energy gained through taking damage.</description>
+				<energy>Cost 100 energy.</energy>
+				<mod name="Almighty"				value="1">Gain 3 additional health per enemy hit.</mod>
+				<mod name="Closer to the Conduit"	value="2">Gain 20 energy on use.</mod>
+				<mod name="Energy Accumulation"		value="2">Each turn you are at maximum energy increase the healing by 3 to a maximum of 15.</mod>
+				<mod name="Refresh the Source"		value="3">Reduce all active cooldowns by 1.</mod>
+			</ability>
+			<about>
+				Current Trust: Omni Trust
+				Skills: Cellular conflagration. Self-flagellation.
+				Know for: Taking one (or 10) for the team. Without permission.
+				Hobby: Researching cosmological events, and creating them.
+
+				Bio: After witnessing the rematerialization of Aurora in the Reactor, Dr. Orion Strand saw a new future for the Warbotics Experimental Augmentation Division. He theorized that reinforcing the subject’s physical form could allow for even greater energy absorption. Acquiring a black market sample of the regenerative plasma from Project Rask (for a small fee), Orion created a cybernetic suit that would allow a user to withstand the Reactor’s energies. Seeing no reason to give that power to anyone else, Orion strapped on the suit and flipped the switch.
+
+Few would call the resulting implosion a success, and certainly Warbotics isn’t pleased with the equipment and personnel of an entire division being absorbed in the creation of a megalomaniacal demigod. But on the other hand, at least he’s their megalomaniacal demigod.
+
+Now calling himself "The Empyrean," Orion’s existence as a Freelancer provides him with a means to absorb enough energy to survive. But many believe that he has his sights set on the Reactor’s energy in the hopes that absorbing all of it will stabilize his form. Ideally, before it kills him.
+			</about>
+		</freelancer>
+		<freelancer name="Quark" role="Support" health="130" affiliation="Wildcard">
+			<ability name="Gamma Ray" cooldown="0" damage="22" phase="Blast" freeaction="false">
+				<description>Attaches a bond to an enemy that deals 22 direct damage and Reveals them, then deals 22 indirect damage each turn while the bond remains intact. The bond breaks if the enemy gets too far away.</description>
+				<energy>Gain 5 energy and 3 health if attached.</energy>
+				<mod name="Compounding Fusion"		value="1">Energy gain increases by 1 each turn to a maximum of 3.</mod>
+				<mod name="Compounding Radiation"	value="2">Damage increases by 2 each turn to a maximum of 6.</mod>
+				<mod name="Leeching Ray"			value="2">Gain 5 additional health each turn if this tether is attached.</mod>
+				<mod name="Anti-Matter"				value="3">Deals an additional 8 damage when the bond is first connected.</mod>
+			</ability>
+			<ability name="Atomic Bond" cooldown="0" damage="0" phase="Prep" freeaction="false">
+				<description>Attaches a bond to an ally that restores 12 health each turn. The bond breaks if the ally is too far away.</description>
+				<energy>Gain 3 energy and 3 health each turn if attached.</energy>
+				<mod name="Atomic Freedom"		value="1">Allows full movement after using Atomic Bond.</mod>
+				<mod name="Evolving Barrier"	value="1">If the bonded ally takes 40 or more damage in a turn they gain 10 shields next turn.</mod>
+				<mod name="Covalent"			value="2">Can now be targeted through walls.</mod>
+				<mod name="Sharing is Caring"	value="2">Gain 2 additional health each turn this tether is attached.</mod>
+				<mod name="Growing Attraction"	value="3">The healing amount increases by 2 each turn to a maximum of 6.</mod>
+			</ability>
+			<ability name="Radiate" cooldown="0" damage="0" phase="Prep" freeaction="false">
+				<description>Increases the strength of one of your bonds by 10.</description>
+				<energy>Gain 8 energy on use.</energy>
+				<mod name="Gene Therapy"	value="2">Gain 1 additional energy per turn for each active bond.</mod>
+				<mod name="Atomic Power"	value="3">Hits both the bonded enemy and ally.</mod>
+				<mod name="Rapid Mutation"	value="3">If an ally is targeted they gain Might, but the additional healing is reduced by 6.</mod>
+			</ability>
+			<ability name="Quantum Collision" cooldown="6" damage="0" phase="Prep" freeaction="false">
+				<description>Dash to a location adjacent to an enemy or an ally, attaching a bond to that target.</description>
+				<energy>Gain 10 energy if you hit your target.</energy>
+				<mod name="Attraction"				value="1">Automatically chase the target hit.</mod>
+				<mod name="Excited"					value="2">Any allies crossed over or hit are given Energize for the turn.</mod>
+				<mod name="Orbit"					value="2">Increases range by 1.</mod>
+				<mod name="Quantum Entanglement"	value="3">If you dash to an ally, they gain a shield for 15 for the turn.</mod>
+			</ability>
+			<ability name="Positronic Surge" cooldown="0" damage="0" phase="Prep" freeaction="false">
+				<description>Unleash a blast of energy that restores 32 health and Energizes until the end of next turn.</description>
+				<energy>Cost 100 energy.</energy>
+				<mod name="Positronic Overload"	value="1">Increases the duration of the Energized buff by 1.</mod>
+				<mod name="Luminosity"			value="2">Allies gain 5 health a turn for the next two turns.</mod>
+				<mod name="Power Surge"			value="2">Grant allies Might for the turn as well.</mod>
+				<mod name="Fusion"				value="3">Gain 15 shields per ally hit. Lasts until end of next turn.</mod>
+			</ability>
+			<about>
+				Current Trust: Wildcard
+				Skills: Anything the Reactor does. Just smaller.
+				Know for: Gently irradiating your loved ones.
+				Favorite Food: Brain cells. Yum!
+
+				Bio: No Trust has figured out exactly what Quark is (and their curiosity waned after an Omni scientist reportedly vanished in the attempt). Evidence suggests that Quark's powers mimic the Reactor's, repairing or irradiating atoms, though little is known for certain. The Anomaly exploded from the Reactor with all of its parts and most of its mental faculties intact, eager to "tickle neurons" and "murder! Murder EVERYONE!"
+
+Some citizens revere Quark as a prophetic entity, but others are less convinced. After all, it's not that hard to predict someone's impending death when you're the one causing it.
+			</about>
+		</freelancer>
+		<freelancer name="Su-Ren" role="Support" health="140" affiliation="Omni Trust">
+			<ability name="Martial Master" cooldown="0" damage="24" phase="Blast" freeaction="false">
+				<description>Strike targets down a line for 24 direct damage or in a circle for 20 direct damage.</description>
+				<energy>Gain 6 energy per enemy hit.</energy>
+				<mod name="Bo Staff Skills"	value="1">Gain 2 additional energy per enemy hit.</mod>
+				<mod name="Forceful Strike"	value="2">Deal 4 additional damage to enemies on the edge of the targeter.</mod>
+				<mod name="Spirit Cycles"	value="2">If 2 or more enemies are hit reduce the cooldown of  Spirit Bend by 1.</mod>
+				<mod name="Zen State"		value="3">Heal for 3 health per enemy you hit with  Martial Master.</mod>
+			</ability>
+			<ability name="Serenity" cooldown="3" damage="0" phase="Blast" freeaction="true">
+				<description>Heal yourself for 18 and allies for 24.</description>
+				<energy>Gain 4 energy per target hit.</energy>
+				<mod name="Surge of Light"		value="1">If only one ally is healed they gain an additional  4 health.</mod>
+				<mod name="Close to Greatness"	value="2">Heal an additional  3 health to adjacent targets reduced by  1 for each square further away they are.</mod>
+				<mod name="Energizing Burst"	value="2">Allies now gain  4 energy on hit.</mod>
+				<mod name="Gaia's Blessing"		value="3">Restores an additional 6 health to an ally if they are under 50% health.</mod>
+			</ability>
+			<ability name="Shifting Winds" cooldown="5" damage="20" phase="Prep" freeaction="false">
+				<description>Dash to an enemy, dealing 20 direct damage or to an ally, healing for 20. Can be used 2 turns in a row but must target an enemy if an ally was targeted first and vice versa.</description>
+				<energy>Gain 12 energy on hit.</energy>
+				<mod name="Protector"				value="1">Allies below 50% health heal for an additional 8 health.</mod>
+				<mod name="Strong as the Mountain"	value="2">Gain 10 shields until end of turn.</mod>
+				<mod name="Swift as the Wind"		value="2">If the second dash isn't used reduce the cooldown by 1.</mod>
+				<mod name="Momentum"				value="3">Increases the effectiveness of the second dash by 50%</mod>
+			</ability>
+			<ability name="Spirit-Bend" cooldown="4" damage="0" phase="Prep" freeaction="false">
+				<description>Grants Might to target ally or weaken to target enemy until their next attack within 2 turns. If that target attacks, anyone hit by the attack gains the opposite status effect.</description>
+				<energy>Gain 10 energy on hit.</energy>
+				<mod name="Chi Overflow"		value="1">Grant 5 energy to the ally target or grant 3 energy to all allies hit by the enemy target.</mod>
+				<mod name="Resonant Spirit"		value="2">Can be targeted through walls</mod>
+				<mod name="Spiritual Echoes"	value="2">Spirit Bend lasts 3 turns but still fades after a buff or debuff is transfered.</mod>
+				<mod name="Spiritual Journey"	value="3">Additionally grants Haste to ally targets and Slow to enemy targets.</mod>
+			</ability>
+			<ability name="Karmic Justice" cooldown="0" damage="50" phase="Prep" freeaction="false">
+				<description>Grant a target 100 shields until end of turn. Next turn a Chi explosion originates from the target dealing up to 50 indirect damage, starting at 25 damage and increasing by 1 for every 4 damage taken during the first turn.</description>
+				<energy>Cost 100 energy.</energy>
+				<mod name="Fleet of Foot"		value="1">Target gains Haste-Icon Haste until end of next turn.</mod>
+				<mod name="Gaia's Chosen"		value="2">Converts 25% of the remaining shields into healing.</mod>
+				<mod name="Avatar of Gaian"		value="3">Target gains Might until end of the next turn.</mod>
+				<mod name="Karmic Afershocks"	value="3">The Chi explosion happens again on the turn after the first explosion, dealing 50% damage of the initial damage.</mod>
+			</ability>
+			<about>
+				Current Trust: Omni Trust
+				Skills: Cultivating talent.
+				Know for: Training some of the finest warriors in Atlas.
+				Age: Old, in human terms, but brand new, with tech and A.I.-updates.
+
+				Bio: As a direct descendent of GAIA (though several generations removed from GAIA's original A.I.), Su-Ren understands more than anyone the acute loss the world suffered when GAIA left. In the centuries since the Desertion, Su-Ren has dedicated herself to making the world once again worthy of GAIA, atoning for the ingratitude and carelessness that drove her away.
+
+Most recently, she was known to be the guardian of Omni's "Project Nidus," raising and training an elite contingent of warriors, including Asana, in the Waste just beyond the megacity limits.
+			</about>
+		</freelancer>	
+	</freelancerslist>

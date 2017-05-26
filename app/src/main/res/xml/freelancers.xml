@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <freelancer name="Freelancer" role="Firepower">
+        <ability name="Trick Shot" cooldown="0" damage="32" phase="Blast" freeaction="false">
+            <description>Fire a trick shot dealing 32 direct damage to an enemy. This shot can bounce off walls.</description>
+            <energy>Gain 12 energy if you hit an enemy.</energy>
+            <mod name="On the Move"     value="2">Backup Plan cooldown reduced by 1 when Trick Shot hits a target.</mod>
+            <mod name="Pinball"         value="1">Adds a additional bounce.</mod>
+            <mod name="Extra Tricky"    value="2">Gains 2 additional damage per bounce.</mod>
+            <mod name="Impaling Shot"   value="3">Pierces the first target. Deals 14 direct damage to the second target hit.</mod>
+        </ability>
+
+        <ability name="Light'em Up!" cooldown="3" damage="30" phase="Blast" freeaction="false">
+            <description>Fire a barrage of bullets, dealing 30 direct damage to enemies.</description>
+            <energy>Gain 8 energy if you hit an enemy.</energy>
+            <mod name="Quickfingers"        value="3">Gain 3 additional energy per enemy hit. Reduce the cooldown to 2 turns.</mod>
+            <mod name="Phosphorus Rounds"   value="1">Reveals enemies hit until end of next Decision Mode.</mod>
+            <mod name="Spray and Pray"      value="2">Increase firing arc to 90 degrees.</mod>
+            <mod name="Focused Fire"        value="2">Deal 35 damage but reduces the width of the arc to 45 degrees.</mod>
+        </ability>
+
+        <ability name="Trapwire" cooldown="4" damage="35" phase="Prep" freeaction="false">
+            <description>Toss a laser trap on the ground. Enemies that move through it take 35 indirect damage. The trap lasts up to 2 turns.</description>
+            <energy>Gain 12 energy if you hit an enemy.</energy>
+            <mod name="Throwing Arm"        value="2">Can be targeted through walls.</mod>
+            <mod name="Insta-trap"          value="3">Now a free action. Reduces damage by 15 and increases cooldown by 1.</mod>
+            <mod name="Trapwall"            value="3">Increase the size of trapwire, but reduces damage by 5.</mod>
+            <mod name="Consolation Prize"   value="1">If nobody trips the Trapwire, the cooldown is reset.</mod>
+        </ability>
+
+        <ability name="Backup Plan" cooldown="7" damage="0" phase="Dash" freeaction="false">
+            <description>Dash to target position. Taking damage reduces this ability\'s cooldown by 1 at the end of the turn.</description>
+            <energy>Gain 10 energy.</energy>
+            <mod name="Souvenir"        value="2">Leaves a Trapwire at your starting location that deals 20 indirect damage.</mod>
+            <mod name="Kinetic Dash"    value="1">Gain 1 energy for each square moved.</mod>
+            <mod name="Slippery"        value="2">Increases range by 1.</mod>
+            <mod name="Tough Customer"  value="3">Gain 20 shields until end of next turn.</mod>
+        </ability>
+
+        <ability name="Run and Gun" cooldown="0" damage="45" phase="Dash" freeaction="false">
+            <description>Dash to target position, dealing 45 direct damage to enemies along the way.</description>
+            <energy>Requires 100 energy</energy>
+            <mod name="Gunslinger"      value="2">Gain 10 energy per enemy hit</mod>
+            <mod name="Burst of Speed"  value="3">Increase range by 3.</mod>
+            <mod name="Armor Piercing"  value="2">Cover damage reduction is halved.</mod>
+            <mod name="Errant Assault"  value="1">Gain 50 energy if you do not hit an enemy.</mod>
+        </ability>
+
+        <about>
+            Current Trust: Helio Corps
+            Skills: Quick Draw, escape
+            Know for: Heists and hair products. Always shoots first.
+            Implants: Agility, charm(recalled)
+
+            Bio: War deserter. Rebel arms dealer. Scoundrel. Lockwood\'s truncated war record shows that he fought in Garrison\'s regiment shortly before vanishing into black market gun running. Even if Lockwood\'s status as Atlas\' first Freelancer has afforded him newfound legitimacy, his slippery tactics are well documented. Historical, even. DNA analysis indicates that he may have resurrected in the Reactor's earliest cycles.
+Stay on your guard and remember: Lockwood's always looking to shoot you in the back, even when he's smirking in your face.
+        </about>
+    </freelancer>
