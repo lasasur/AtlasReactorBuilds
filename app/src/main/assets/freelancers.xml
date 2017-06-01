@@ -1095,19 +1095,19 @@ His supernatural strength and shouts can root enemies in fear, tear apart his su
 			<ability name="Paralyzer" cooldown="5" damage="0" phase="Prep" freeaction="false">
 				<description>Unleash a surge of energy making enemies Weak-Icon Weak and granting 10 shields to herself and allies for the turn.</description>
 				<energy>Gain 5 energy per enemy hit and 3 energy per ally hit.</energy>
-				<mod name="Laser Designator"value="1">Enemies hit are also Revealed until end of next Decision Mode.</mod>
-				<mod name="Gravity Well" 	value="2">Enemies hit are also Slowed for the turn.</mod>
-				<mod name="Rapid Paralysis"	value="2">This ability's cooldown is reduced by 1 for each target hit, up to 3 max.</mod>
-				<mod name="Surge of Might"	value="3">Aurora and targeted allies gain Might for the turn.</mod>
-				<mod name="Tenacious"		value="3">Aurora and targeted allies become Unstoppable for the turn.</mod>
+				<mod name="Laser Designator" value="1">Enemies hit are also Revealed until end of next Decision Mode.</mod>
+				<mod name="Gravity Well" 	 value="2">Enemies hit are also Slowed for the turn.</mod>
+				<mod name="Rapid Paralysis"	 value="2">This ability's cooldown is reduced by 1 for each target hit, up to 3 max.</mod>
+				<mod name="Surge of Might"	 value="3">Aurora and targeted allies gain Might for the turn.</mod>
+				<mod name="Tenacious"		 value="3">Aurora and targeted allies become Unstoppable for the turn.</mod>
 			</ability>
 			<ability name="Heart of the Storm" cooldown="0" damage="24" phase="Blast" freeaction="false">
 				<description>Project powerful beams in four directions, enemies take 24 direct damage while Aurora and her allies gain 24 health. Can shoot through walls and ignores Cover.</description>
 				<energy>Costs 100 energy.</energy>
-				<mod name="Temporal Shift"	value="1">Slows enemies for the turn and Hastes allies until the end of the next turn.</mod>
-				<mod name="Focused Radiance"value="2">Each beam that only hits one target, friendly or enemy, increases in potency by 6.</mod>
-				<mod name="Supernova"		value="2">Increases the number of beams to 8. Decreases their potency by 4.</mod>
-				<mod name="Sudden Jolt"		value="3">On use, reduces all active cooldowns by 1.</mod>
+				<mod name="Temporal Shift"	 value="1">Slows enemies for the turn and Hastes allies until the end of the next turn.</mod>
+				<mod name="Focused Radiance" value="2">Each beam that only hits one target, friendly or enemy, increases in potency by 6.</mod>
+				<mod name="Supernova"		 value="2">Increases the number of beams to 8. Decreases their potency by 4.</mod>
+				<mod name="Sudden Jolt"		 value="3">On use, reduces all active cooldowns by 1.</mod>
 			</ability>
 			<about>
 				Current Trust: Omni Trust
@@ -1124,10 +1124,10 @@ Aurora's form mimics the Reactor's abilities, allowing her to mend or destroy at
 			<ability name="Water Spout" cooldown="0" damage="24" phase="Blast" freeaction="false">
 				<description>Create a cone of high pressured water that deals between 12 and 24 direct damage depending on the size of the targeter.</description>
 				<energy>Gain 5 energy per enemy hit.</energy>
-				<mod name="Catch of the Day"value="1">Gain an additional 6 energy if only one target is hit.</mod>
-				<mod name="Firehose"		value="2">Increase the maximum arc by 30 degrees.</mod>
-				<mod name="High Pressure"	value="3">Deal up to an additional 3 damage the smaller the arc of the cone is.</mod>
-				<mod name="Spray and Play"	value="3">Increase the ally healing amount of the next Refreshing Spray by 2 per enemy hit.</mod>
+				<mod name="Catch of the Day" value="1">Gain an additional 6 energy if only one target is hit.</mod>
+				<mod name="Firehose"		 value="2">Increase the maximum arc by 30 degrees.</mod>
+				<mod name="High Pressure"	 value="3">Deal up to an additional 3 damage the smaller the arc of the cone is.</mod>
+				<mod name="Spray and Play"	 value="3">Increase the ally healing amount of the next Refreshing Spray by 2 per enemy hit.</mod>
 			</ability>
 			<ability name="Refreshing Spray" cooldown="3" damage="0" phase="Prep" freeaction="false">
 				<description>Create a cone of healing waters, healing allies for 24 to 30 depending on size, and himself for 12</description>
@@ -1184,10 +1184,10 @@ Dr. Finn's eel-energized ray gun is customized to his specifications. It has a t
 			<ability name="Blast Shield" cooldown="3" damage="0" phase="Prep" freeaction="true">
 				<description>Target ally gains 30 shields until end of turn. Has 2 charges.</description>
 				<energy>Gain 8 energy.</energy>
-				<mod name="Nano Rush"	value="1">Shielded target gains Haste next turn.</mod>
-				<mod name="Omni-Barrier"value="2">Can be targeted through walls.</mod>
-				<mod name="Fortress"	value="3">If used on an ally also shields self for 14.</mod>
-				<mod name="Power Share"	value="3">Shielded target gains Might for the turn.</mod>
+				<mod name="Nano Rush"	 value="1">Shielded target gains Haste next turn.</mod>
+				<mod name="Omni-Barrier" value="2">Can be targeted through walls.</mod>
+				<mod name="Fortress"	 value="3">If used on an ally also shields self for 14.</mod>
+				<mod name="Power Share"	 value="3">Shielded target gains Might for the turn.</mod>
 			</ability>
 			<ability name="Black Hole Generator" cooldown="4" damage="10" phase="Prep" freeaction="false">
 				<description>Fabricate a miniature black hole on an ally that will detonate next turn, pulling enemies over the black hole and dealing 10 indirect damage to each. Ignores cover.</description>

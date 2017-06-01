@@ -10,18 +10,18 @@ import java.util.List;
 
 /**
  * Created by Fábio on 19/05/2017.
+ * Classe que representa as habilidades dos Freelancers.
  */
 
-public class Ability implements Parcelable{
+class Ability implements Parcelable{
 
     //Declarando constantes que definem a fase das habilidades
-    public static final int PREP_PHASE = 0;
-    public static final int DASH_PHASE = 1;
-    public static final int BLAST_PHASE = 2;
+    static final int PREP_PHASE = 0;
+    static final int DASH_PHASE = 1;
+    static final int BLAST_PHASE = 2;
 
     @Retention(RetentionPolicy.SOURCE) @IntDef({PREP_PHASE , DASH_PHASE , BLAST_PHASE})
-
-    public @interface AbilityPhase{}
+    @interface AbilityPhase{}
 
     private String name;
     private int cooldown;
@@ -33,7 +33,7 @@ public class Ability implements Parcelable{
     private boolean freeAction;
     private List<Mod> mods;
 
-    public Ability(){}
+    Ability(){}
 
     public String getName() {
         return name;
@@ -47,7 +47,7 @@ public class Ability implements Parcelable{
         return cooldown;
     }
 
-    public void setCooldown(int cooldown) {
+    void setCooldown(int cooldown) {
         this.cooldown = cooldown;
     }
 
@@ -55,7 +55,7 @@ public class Ability implements Parcelable{
         return description;
     }
 
-    public void setDescription(String description) {
+    void setDescription(String description) {
         this.description = description;
     }
 
@@ -63,7 +63,7 @@ public class Ability implements Parcelable{
         return damage;
     }
 
-    public void setDamage(int damage) {
+    void setDamage(int damage) {
         this.damage = damage;
     }
 
@@ -72,7 +72,7 @@ public class Ability implements Parcelable{
         return phase;
     }
 
-    public void setPhase(@AbilityPhase int phase) {
+    void setPhase(@AbilityPhase int phase) {
         this.phase = phase;
     }
 
@@ -97,7 +97,7 @@ public class Ability implements Parcelable{
         return energy;
     }
 
-    public void setEnergy(String energy) {
+    void setEnergy(String energy) {
         this.energy = energy;
     }
 
@@ -118,7 +118,7 @@ public class Ability implements Parcelable{
         dest.writeTypedList(mods);
     }
 
-    protected Ability(Parcel in) {
+    private Ability(Parcel in) {
         name = in.readString();
         cooldown = in.readInt();
         description = in.readString();

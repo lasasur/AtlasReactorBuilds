@@ -5,14 +5,15 @@ import android.os.Parcelable;
 
 /**
  * Created by Fábio on 20/05/2017.
+ * Classe que representa as modificações que podem ser aplicadas as habilidades dos freelancers
  */
 
-public class Mod implements Parcelable{
+class Mod implements Parcelable{
     private String name;
     private String description;
     private int value;
 
-    public Mod(){
+    Mod(){
         this.name = null;
         this.description = null;
         this.value = 0;
@@ -36,19 +37,19 @@ public class Mod implements Parcelable{
         return description;
     }
 
-    public void setDescription(String description) {
+    void setDescription(String description) {
         this.description = description;
     }
 
-    public int getValue() {
+    int getValue() {
         return value;
     }
 
-    public void setValue(int value) {
+    void setValue(int value) {
         this.value = value;
     }
 
-    protected Mod(Parcel in) {
+    private Mod(Parcel in) {
         name = in.readString();
         description = in.readString();
         value = in.readInt();

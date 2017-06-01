@@ -8,14 +8,15 @@ import android.widget.ImageView;
 
 /**
  * Created by Fábio on 22/05/2017.
+ * GridView usada para popular a grade de freelancers em ChooseFreelancer Menu
  */
 
-public class GridViewAdapter extends BaseAdapter {
+class GridViewAdapter extends BaseAdapter {
 
     private Context context;
     private int[] lista;
 
-    public GridViewAdapter(Context ct , int[] lst){
+    GridViewAdapter(Context ct, int[] lst){
         this.context = ct;
         this.lista = lst;
     }

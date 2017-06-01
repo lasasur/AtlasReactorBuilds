@@ -11,6 +11,7 @@ import android.os.Parcelable;
 public class Freelancer implements Parcelable{
 
     private String name;
+    private int health;
     private Ability ability1;
     private Ability ability2;
     private Ability ability3;
@@ -18,6 +19,7 @@ public class Freelancer implements Parcelable{
     private Ability ability5;
     private String role;
     private String bio;
+    private String affiliation;
     //private Drawable icon;
 
     public Freelancer (){
@@ -88,6 +90,21 @@ public class Freelancer implements Parcelable{
         this.bio = bio;
     }
 
+    public String getAffiliation() {
+        return affiliation;
+    }
+
+    public void setAffiliation(String affiliation) {
+        this.affiliation = affiliation;
+    }
+
+    public int getHealth() {
+        return health;
+    }
+
+    public void setHealth(int health) {
+        this.health = health;
+    }
 
     @Override
     public int describeContents() {
